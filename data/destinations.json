@@ -1,0 +1,98 @@
+[
+  {
+    "id": "reykjavik",
+    "name": "Reykjavik",
+    "country": "Iceland",
+    "connectionType": "direct",
+    "flightTime": "7 hr 35 min",
+    "route": "PDX -> KEF",
+    "description": "Reykjavik is the capital and largest city of Iceland. It is located in southwestern Iceland, on the southern shore of Faxaflói bay.",
+    "dayTrips": [
+      {
+        "title": "The Golden Circle",
+        "description": "Easy, flat walking paths right between tectonic plates and geysers."
+      },
+      {
+        "title": "Reykjadalur",
+        "description": "A moderate valley hike ending in a naturally warm river you can bathe in."
+      },
+      {
+        "title": "City Center",
+        "description": "Walk around Tjörnin (city pond) and the Harpa Concert Hall interactive play areas."
+      }
+    ],
+    "map": {
+      "center": [64.1466, -21.9426],
+      "zoom": 8,
+      "markers": [
+        { "coords": [64.1466, -21.9426], "title": "Reykjavik City Center" },
+        { "coords": [64.2556, -21.1296], "title": "Thingvellir National Park (Golden Circle)" },
+        { "coords": [64.0226, -21.2116], "title": "Reykjadalur Hot Spring River" }
+      ]
+    }
+  },
+  {
+    "id": "amsterdam",
+    "name": "Amsterdam",
+    "country": "Netherlands",
+    "connectionType": "direct",
+    "flightTime": "9 hr 35 min",
+    "route": "PDX -> AMS",
+    "description": "Amsterdam is the capital and most populous city of the Netherlands. It is known for its artistic heritage, elaborate canal system and narrow houses with gabled facades.",
+    "dayTrips": [
+      {
+        "title": "Zandvoort aan Zee",
+        "description": "30-min train to the coast for wide beaches and easy dune walks."
+      },
+      {
+        "title": "Zaanse Schans",
+        "description": "Short trip north for historic windmills and live demonstrations."
+      },
+      {
+        "title": "Vondelpark & Jordaan",
+        "description": "Massive car-free park walking and picturesque canal streets."
+      }
+    ],
+    "map": {
+      "center": [52.3676, 4.9041],
+      "zoom": 10,
+      "markers": [
+        { "coords": [52.3676, 4.9041], "title": "Amsterdam City Center (Vondelpark)" },
+        { "coords": [52.3736, 4.5297], "title": "Zandvoort aan Zee (Beach Day)" },
+        { "coords": [52.4728, 4.8219], "title": "Zaanse Schans (Windmills)" }
+      ]
+    }
+  },
+  {
+    "id": "frankfurt",
+    "name": "Frankfurt",
+    "country": "Germany",
+    "connectionType": "direct",
+    "flightTime": "10 hr 20 min",
+    "route": "PDX -> FRA",
+    "description": "Frankfurt, a central German city on the river Main, is a major financial hub that's home to the European Central Bank. It's the birthplace of famed writer Johann Wolfgang von Goethe.",
+    "dayTrips": [
+      {
+        "title": "The Rhine Valley",
+        "description": "Short train to riverboats, dotted with hillside castle ruins."
+      },
+      {
+        "title": "Taunus Nature Park",
+        "description": "Gentile, heavily wooded trails ending at a reconstructed Roman fort."
+      },
+      {
+        "title": "Main River Promenade",
+        "description": "Flat, tree-lined walking paths starting right from the old town square."
+      }
+    ],
+    "map": {
+      "center": [50.1109, 8.6821],
+      "zoom": 9,
+      "markers": [
+        { "coords": [50.1109, 8.6821], "title": "Frankfurt (Römerberg / Main River)" },
+        { "coords": [49.9760, 7.9130], "title": "The Rhine Valley (Bingen / Rüdesheim)" },
+        { "coords": [50.2709, 8.5670], "title": "Taunus Nature Park (Saalburg)" }
+      ]
+    }
+  }
+]
