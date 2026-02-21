@@ -330,5 +330,134 @@
         { "coords": [50.1232, 8.6585], "title": "Palmengarten" }
       ]
     }
+  },
+  {
+    "id": "brussels",
+    "name": "Brussels & Antwerp",
+    "country": "Belgium",
+    "connectionType": "1-stop",
+    "flightTime": "~11 to 12 hours total",
+    "route": "PDX -> BRU",
+    "description": "Brussels offers a highly connected network of trams and metros. Stepping just outside the main tourist squares reveals incredibly vibrant, walkable neighborhoods and specialized museums.",
+    "dayTrips": [
+      {
+        "title": "Leuven (Secret Gardens & Cobblestones)",
+        "description": "About 25 minutes by train. A historic university town with a vibrant, lived-in energy. The absolute highlight for walking is the *Groot Begijnhof* (Grand Beguinage), a car-free, hidden village of historic red-brick houses and quiet cobbled streets. It is also home to the *Kruidtuin*, the oldest botanical garden in Belgium, featuring a beautiful tropical greenhouse complex and massive outdoor beds."
+      },
+      {
+        "title": "Mechelen (City of Bells & Games)",
+        "description": "A quick 25-minute train north. Mechelen is incredibly walkable and famous as the home of the Royal Carillon School—you can frequently hear the massive acoustic bells echoing from the cathedral as you explore. It also houses the *Speelgoedmuseum* (Toy Museum), a massive, hands-on space packed with wooden logic puzzles, historic games, and interactive challenges."
+      },
+      {
+        "title": "Dinant (Cliffs & Acoustic History)",
+        "description": "About 1 hour and 15 minutes by direct train. The landscape changes dramatically as Dinant is squeezed between the Meuse River and towering, sheer rock cliffs. It is the birthplace of the inventor of the saxophone, and the town fully embraces this acoustic history with an interactive museum and giant saxophone sculptures lining the river bridge."
+      },
+      {
+        "title": "Villers-la-Ville (The Ruined Abbey)",
+        "description": "About 1 hour and 15 minutes south (usually requiring one quick train change). This is pure exploration: wandering the massive, sprawling stone ruins of a 12th-century abbey. The roof is completely gone and nature has reclaimed the site, with trees growing right through towering Gothic arches and restored medicinal herb gardens to explore at your own pace."
+      },
+      {
+        "title": "Bokrijk (Open-Air History & Forest Trails)",
+        "description": "About 1 hour and 30 minutes away (the train drops you right at the \"Bokrijk\" station). This is a massive open-air museum set inside a sprawling forested nature reserve. You can walk through over 100 reconstructed historic windmills and farmhouses, watching live demonstrations of traditional bread baking in wood-fired ovens."
+      },
+      {
+        "title": "Antwerp (Middelheim & Printing Presses)",
+        "description": "Just 45 minutes by train. Head to the Plantin-Moretus Museum—the only museum in the world recognized as a UNESCO World Heritage site, featuring the world's oldest printing presses in a stunning 16th-century mansion that feels like a historic puzzle to navigate. Later, walk the Middelheim Open Air Sculpture Museum, a massive park where art is hidden among the walking trails."
+      },
+      {
+        "title": "Ghent (Gravensteen Castle)",
+        "description": "About 35 minutes by train. Ghent offers the same stunning canals and medieval architecture as Bruges, but with a more authentic, lived-in feel and far fewer tourists. Exploring the winding staircases, battlements, and armories of Gravensteen (Castle of the Counts) right in the center of the city feels like stepping into a sprawling adventure game."
+      }
+    ],
+    "extendedDetails": {
+      "gettingAround": {
+        "text": "Completely car-free. Belgium has one of the densest, most efficient railway networks in the world (SNCB). You can base yourself in Brussels and reach almost any city in the country by train in under an hour. Locally, Brussels uses a highly connected network of trams and metros."
+      },
+      "primaryDestination": {
+        "title": "Exploring the Primary Destination: Brussels",
+        "items": [
+          {
+            "title": "Musical Instruments Museum (MIM)",
+            "description": "Housed in a spectacular Art Nouveau building, this museum is an absolute must-visit. It features thousands of instruments from around the world. You are given headphones that automatically play the music of the specific acoustic, string, or traditional instrument you are standing in front of as you walk through the exhibits."
+          },
+          {
+            "title": "Les Marolles & The Sablon",
+            "description": "Skip the crowded shopping streets and walk through Les Marolles, a historic, working-class neighborhood famous for its massive daily flea market at Place du Jeu de Balle. It seamlessly borders the Sablon district, known for its incredible architecture and artisan chocolate shops."
+          },
+          {
+            "title": "Meise Botanic Garden",
+            "description": "Located just a short bus ride from the city center, this is one of the largest botanical gardens in the world. It offers massive outdoor walking grounds and interconnected, climate-controlled greenhouses that are incredibly peaceful to explore."
+          }
+        ]
+      },
+      "attractions": {
+        "title": "The \"In the Know\" Tourist Attractions",
+        "items": [
+          {
+            "title": "Bruges",
+            "description": "Often called the \"Venice of the North.\" It is undeniably beautiful, but it is heavily touristed and can feel more like a museum than a functioning city during the summer peak."
+          },
+          {
+            "title": "The Grand Place",
+            "description": "The central square of Brussels, surrounded by opulent guildhalls. It is breathtaking to walk through once, but the surrounding streets are packed with tourist-trap restaurants."
+          },
+          {
+            "title": "The Atomium & Mini-Europe",
+            "description": "Built for the 1958 World's Fair, this giant stainless steel atom offers panoramic views, with a park of miniature European landmarks sitting at its base."
+          }
+        ]
+      },
+      "food": {
+        "title": "Local Food & Dining",
+        "items": [
+          {
+            "title": "The Waffles",
+            "description": "There are two main types. The **Brussels Waffle** is rectangular, light, and crispy (usually eaten sitting down with toppings). The **Liège Waffle** is dense, chewy, and packed with pearl sugar that caramelizes on the iron (best eaten warm from a street vendor while walking)."
+          },
+          {
+            "title": "Frietkot Culture",
+            "description": "Belgian fries (*frieten*) are a cultural institution. They are thick-cut, double-fried, and served in a paper cone from dedicated kiosks (*frietkots*). They are traditionally eaten with mayonnaise or specialized sauces like Andalouse."
+          },
+          {
+            "title": "Bakeries & Breads",
+            "description": "The baking scene is phenomenal. Look for *Cramique* (a soft brioche loaf baked with raisins) or *Craquelin* (baked with sugar nibs) for breakfast."
+          },
+          {
+            "title": "Chocolate",
+            "description": "Skip the massive international brands and look for independent *chocolatiers* in the Sablon district making fresh pralines (chocolate shells filled with soft centers)."
+          }
+        ]
+      },
+      "itinerary": {
+        "title": "10-Day Itinerary",
+        "items": [
+          { "day": "Day 1", "activity": "Departure: Afternoon flight out of PDX, connecting through a European hub." },
+          { "day": "Day 2", "activity": "Arrival & Les Marolles: Arrive at BRU. Take the 20-minute train directly into Brussels Central. Check in and stretch your legs by walking the historic streets of Les Marolles. Grab a warm Liège waffle from a street vendor to help combat the jet lag." },
+          { "day": "Day 3", "activity": "Instruments & Greenhouses: Spend the morning exploring the incredible acoustic and traditional exhibits at the Musical Instruments Museum (MIM). In the afternoon, take a short ride out to the Meise Botanic Garden to walk the expansive grounds and greenhouses." },
+          { "day": "Day 4", "activity": "Antwerp's Historic Puzzles: Take the 45-minute train north to Antwerp. Spend the morning exploring the labyrinthine rooms and ancient presses of the Plantin-Moretus Museum." },
+          { "day": "Day 5", "activity": "Antwerp's Outdoor Trails: Return to Antwerp or stay overnight. Spend the day walking the expansive, shaded trails of the Middelheim Open Air Sculpture Museum, grabbing thick-cut *frieten* from a local *frietkot* for lunch." },
+          { "day": "Day 6", "activity": "Medieval Ghent: Take the 35-minute train to Ghent. Spend the day exploring the winding stone corridors and towers of Gravensteen Castle. Walk the picturesque Graslei harbor and seek out a local bakery for fresh *Cramique*." },
+          { "day": "Day 7", "activity": "Brussels City Walking: Have a slow morning in Brussels. Walk through the stunning Sablon district, stopping into independent chocolatiers to assemble a box of fresh pralines. Enjoy a relaxed, sit-down lunch of traditional Flemish stew (*Carbonnade Flamande*)." },
+          { "day": "Day 8", "activity": "Flexible Exploration: Keep this day open. Revisit a favorite neighborhood, take a quick train to the university town of Leuven to walk the botanical gardens there, or explore the massive Parc du Cinquantenaire." },
+          { "day": "Day 9", "activity": "Final Explorations: Pick up any last-minute souvenirs or specialized local baking tools. Enjoy a celebratory final dinner out in the city." },
+          { "day": "Day 10", "activity": "Return Home: Take the short train back to Brussels Airport (BRU). Board your flight back to the US, clearing customs comfortably back in Portland." }
+        ]
+      }
+    },
+    "map": {
+      "center": [50.8503, 4.3517],
+      "zoom": 9,
+      "markers": [
+        { "coords": [50.8428, 4.3585], "title": "Brussels (MIM/Center)" },
+        { "coords": [50.9284, 4.3274], "title": "Meise Botanic Garden" },
+        { "coords": [50.8798, 4.7005], "title": "Leuven" },
+        { "coords": [51.0259, 4.4776], "title": "Mechelen" },
+        { "coords": [50.2600, 4.9120], "title": "Dinant" },
+        { "coords": [50.5906, 4.5297], "title": "Villers-la-Ville" },
+        { "coords": [50.9575, 5.4087], "title": "Bokrijk" },
+        { "coords": [51.2194, 4.4025], "title": "Antwerp" },
+        { "coords": [51.0543, 3.7174], "title": "Ghent" }
+      ]
+    }
   }
 ]
