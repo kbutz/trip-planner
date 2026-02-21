@@ -78,18 +78,18 @@
         ]
       },
       "itinerary": {
-        "title": "Itinerary (June 11 - 20)",
+        "title": "10-Day Itinerary",
         "items": [
-          { "day": "Day 1 (Thu, Jun 11)", "activity": "Afternoon non-stop flight out of PDX." },
-          { "day": "Day 2 (Fri, Jun 12)", "activity": "Arrive at KEF. Board the Flybus into the city. Walk around Tjörnin and grab hot dogs at Bæjarins Beztu Pylsur." },
-          { "day": "Day 3 (Sat, Jun 13)", "activity": "Fresh sourdough and pastries. Explore Harpa Concert Hall's interactive acoustic room. Afternoon Strætó bus to Laugardalslaug pool." },
-          { "day": "Day 4 (Sun, Jun 14)", "activity": "Scheduled Golden Circle Coach (Thingvellir, Geysir, Gullfoss). Hearty Kjötsúpa for dinner." },
-          { "day": "Day 5 (Mon, Jun 15)", "activity": "Grocery run for Skyr and Rúgbrauð. Walk up Hallgrímskirkja and browse local record shops. Cook dinner together." },
-          { "day": "Day 6 (Tue, Jun 16)", "activity": "Scheduled South Coast Coach (Seljalandsfoss, Skógafoss, Reynisfjara black sand beach)." },
-          { "day": "Day 7 (Wed, Jun 17)", "activity": "Route 51 bus to Hveragerði. Moderate hike to the Reykjadalur thermal river to wade and relax." },
-          { "day": "Day 8 (Thu, Jun 18)", "activity": "Whales of Iceland exhibition in the Grandi harbor district. Ice cream and coastal walking." },
-          { "day": "Day 9 (Fri, Jun 19)", "activity": "Bus to Perlan to see the indoor ice cave. Souvenir shopping and a celebratory final dinner." },
-          { "day": "Day 10 (Sat, Jun 20)", "activity": "Flybus back to KEF. Non-stop flight home to Portland." }
+          { "day": "Day 1", "activity": "Afternoon non-stop flight out of PDX." },
+          { "day": "Day 2", "activity": "Arrive at KEF. Board the Flybus into the city. Walk around Tjörnin and grab hot dogs at Bæjarins Beztu Pylsur." },
+          { "day": "Day 3", "activity": "Fresh sourdough and pastries. Explore Harpa Concert Hall's interactive acoustic room. Afternoon Strætó bus to Laugardalslaug pool." },
+          { "day": "Day 4", "activity": "Scheduled Golden Circle Coach (Thingvellir, Geysir, Gullfoss). Hearty Kjötsúpa for dinner." },
+          { "day": "Day 5", "activity": "Grocery run for Skyr and Rúgbrauð. Walk up Hallgrímskirkja and browse local record shops. Cook dinner together." },
+          { "day": "Day 6", "activity": "Scheduled South Coast Coach (Seljalandsfoss, Skógafoss, Reynisfjara black sand beach)." },
+          { "day": "Day 7", "activity": "Route 51 bus to Hveragerði. Moderate hike to the Reykjadalur thermal river to wade and relax." },
+          { "day": "Day 8", "activity": "Whales of Iceland exhibition in the Grandi harbor district. Ice cream and coastal walking." },
+          { "day": "Day 9", "activity": "Bus to Perlan to see the indoor ice cave. Souvenir shopping and a celebratory final dinner." },
+          { "day": "Day 10", "activity": "Flybus back to KEF. Non-stop flight home to Portland." }
         ]
       }
     },
