@@ -6,7 +6,7 @@
     "connectionType": "direct",
     "flightTime": "7 hr 35 min",
     "route": "PDX -> KEF",
-    "bannerImage": "images/reykjavik_banner.jpg",
+    "bannerImage": "images/reykjavik_banner_new.jpg",
     "description": "Reykjavik's downtown is compact, colorful, and feels more like a large coastal town than a sprawling European capital.",
     "dayTrips": [
       {
@@ -54,6 +54,7 @@
           },
           {
             "title": "Hallgrímskirkja",
+            "image": "images/reykjavik_attraction_church.jpg",
             "description": "The iconic, towering concrete church. Tourists flock here for panoramic views of the city."
           },
           {
@@ -67,6 +68,7 @@
         "items": [
           {
             "title": "Grocery Stores (Bónus and Krónan)",
+            "image": "images/reykjavik_food_rugbraud.jpg",
             "description": "Stock up on **Skyr** (dense, protein-rich cultured dairy), **Harðfiskur** (dried fish jerky), fresh greenhouse-grown tomatoes/cucumbers, and **Rúgbrauð** (dense geothermal rye bread)."
           },
           {
@@ -184,6 +186,7 @@
         "items": [
           {
             "title": "The Rijksmuseum & Van Gogh Museum",
+            "image": "images/amsterdam_attraction_rijks.jpg",
             "description": "Located right next to each other on Museumplein, these house the country's most famous artistic masterpieces."
           },
           {
@@ -206,10 +209,12 @@
           },
           {
             "title": "Pannenkoeken",
+            "image": "images/amsterdam_food_pannenkoeken.jpg",
             "description": "Dutch pancakes are large, thin, and can be ordered sweet (with apples and syrup) or savory (with cheese and vegetables). They are a universally beloved meal and a guaranteed hit."
           },
           {
             "title": "Surinamese & Indonesian Food",
+            "image": "images/amsterdam_food_rijsttafel.jpg",
             "description": "Due to its colonial history, Amsterdam has world-class Indonesian and Surinamese food. Indonesian *Rijsttafel* (a massive spread of dozens of small vegetable and protein dishes) is a fantastic, shared dining experience."
           },
           {
@@ -288,7 +293,7 @@
         "items": [
           {
             "title": "City Walking & Green Spaces",
-            "image": "images/frankfurt_attraction.jpg",
+            "image": "images/frankfurt_attraction_romerberg.jpg",
             "description": "A perfect walk starts at the Römerberg (the historic old town square) and crosses the Eiserner Steg (Iron Footbridge). This puts you right on the Main River promenade—a wide, flat, tree-lined path perfect for a scenic stroll. For a break from the city, the Palmengarten is a spectacular 50-acre botanical garden right in town."
           },
           {
@@ -336,6 +341,7 @@
           },
           {
             "title": "Beverages",
+            "image": "images/frankfurt_food_apfelwein.jpg",
             "description": "The regional specialty is *Apfelwein* (a tart apple cider). It's typically served in traditional diamond-patterned glasses. A sweeter, highly popular version is *Süßgespritzter* (mixed with sweet lemonade), and local, unfiltered apple juice (*Naturtrüber Apfelsaft*) is widely available."
           }
         ]
@@ -440,6 +446,7 @@
           },
           {
             "title": "The Grand Place",
+            "image": "images/brussels_attraction_grandplace.jpg",
             "description": "The central square of Brussels, surrounded by opulent guildhalls. It is breathtaking to walk through once, but the surrounding streets are packed with tourist-trap restaurants."
           },
           {
@@ -459,6 +466,7 @@
           },
           {
             "title": "Frietkot Culture",
+            "image": "images/brussels_food_fries.jpg",
             "description": "Belgian fries (*frieten*) are a cultural institution. They are thick-cut, double-fried, and served in a paper cone from dedicated kiosks (*frietkots*). They are traditionally eaten with mayonnaise or specialized sauces like Andalouse."
           },
           {
@@ -467,6 +475,7 @@
           },
           {
             "title": "Chocolate",
+            "image": "images/brussels_food_chocolate.jpg",
             "description": "Skip the massive international brands and look for independent *chocolatiers* in the Sablon district making fresh pralines (chocolate shells filled with soft centers)."
           }
         ]
