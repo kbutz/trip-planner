@@ -6,6 +6,7 @@
     "connectionType": "direct",
     "flightTime": "7 hr 35 min",
     "route": "PDX -> KEF",
+    "bannerImage": "images/reykjavik_banner.jpg",
     "description": "Reykjavik's downtown is compact, colorful, and feels more like a large coastal town than a sprawling European capital.",
     "dayTrips": [
       {
@@ -48,6 +49,7 @@
         "items": [
           {
             "title": "The Blue Lagoon & Sky Lagoon",
+            "image": "images/reykjavik_attraction.jpg",
             "description": "Massive, commercialized geothermal spas offering a luxurious soaking experience (requires booking well in advance)."
           },
           {
@@ -69,6 +71,7 @@
           },
           {
             "title": "Casual & Street Food",
+            "image": "images/reykjavik_food.jpg",
             "description": "The **Icelandic Hot Dog** (*pylsa*) made of free-range lamb with all the toppings. **Kjötsúpa** (traditional lamb and root vegetable meat soup) is perfect after a hike."
           },
           {
@@ -116,6 +119,7 @@
     "connectionType": "direct",
     "flightTime": "9 hr 35 min",
     "route": "PDX -> AMS",
+    "bannerImage": "images/amsterdam_banner.jpg",
     "description": "The city is structured around concentric rings of canals. It’s highly picturesque and visually stunning, but walkers do need to stay alert and stay out of the dedicated bicycle lanes!",
     "dayTripIntro": "The Dutch rail system is phenomenal. You simply tap in at Amsterdam Centraal station and can be in an entirely different landscape in under an hour. These options skip the massive crowds and focus on hands-on exploration, sprawling gardens, and historic food culture.",
     "dayTrips": [
@@ -130,6 +134,11 @@
       {
         "title": "Haarlem & Zuid-Kennemerland National Park",
         "description": "Just 15 minutes by train. Haarlem itself is a stunning historic city with a phenomenal local baking and cafe scene. From the station, you have immediate access to Zuid-Kennemerland National Park. It features miles of wide, sandy trails winding through forested coastal dunes, where you can frequently spot free-roaming Highland cattle and wild horses."
+      },
+      {
+        "title": "Zaanse Schans (Windmills)",
+        "image": "images/amsterdam_daytrip.jpg",
+        "description": "A classic Dutch landscape with functioning windmills, wooden shoemaking workshops, and cheese tasting. It's a bit touristy but undeniably beautiful and iconic."
       },
       {
         "title": "Gouda (Syrup Waffles & Market Squares)",
@@ -165,6 +174,7 @@
           },
           {
             "title": "Canal Boats",
+            "image": "images/amsterdam_attraction.jpg",
             "description": "Viewing the city from the water is entirely different than from the street. Taking an open-air, smaller electric boat tour through the historic rings offers a very relaxed, unique perspective."
           }
         ]
@@ -191,6 +201,7 @@
         "items": [
           {
             "title": "Bakeries & Sweets",
+            "image": "images/amsterdam_food.jpg",
             "description": "The Dutch excel at baked goods. Look for **Stroopwafels** (thin waffle cookies joined by caramel, best eaten warm from a street vendor) and thick slices of **Appeltaart** (Dutch apple pie) at local cafes."
           },
           {
@@ -243,6 +254,7 @@
     "connectionType": "direct",
     "flightTime": "10 hr 20 min",
     "route": "PDX -> FRA",
+    "bannerImage": "images/frankfurt_banner.jpg",
     "description": "Frankfurt offers a striking contrast between a modern, glassy skyline and meticulously reconstructed historic architecture. The city's core is very flat and pedestrian-friendly.",
     "dayTripIntro": "Frankfurt's central train station is one of the most connected hubs in Europe. By hopping on a regional DB train or the local S-Bahn, you can leave the skyscrapers behind and step directly into dense forests, fairy-tale villages, and historic baking towns.",
     "dayTrips": [
@@ -276,6 +288,7 @@
         "items": [
           {
             "title": "City Walking & Green Spaces",
+            "image": "images/frankfurt_attraction.jpg",
             "description": "A perfect walk starts at the Römerberg (the historic old town square) and crosses the Eiserner Steg (Iron Footbridge). This puts you right on the Main River promenade—a wide, flat, tree-lined path perfect for a scenic stroll. For a break from the city, the Palmengarten is a spectacular 50-acre botanical garden right in town."
           },
           {
@@ -314,6 +327,7 @@
           },
           {
             "title": "Traditional Dishes",
+            "image": "images/frankfurt_food.jpg",
             "description": "Frankfurt is famous for *Grüne Soße* (Green Sauce), a cold, creamy sauce made from seven fresh regional herbs, typically served over hard-boiled eggs and boiled potatoes. It is light, fresh, and universally loved."
           },
           {
@@ -364,6 +378,7 @@
     "connectionType": "1-stop",
     "flightTime": "~11 to 12 hours total",
     "route": "PDX -> BRU",
+    "bannerImage": "images/brussels_banner.jpg",
     "description": "Brussels offers a highly connected network of trams and metros. Stepping just outside the main tourist squares reveals incredibly vibrant, walkable neighborhoods and specialized museums.",
     "dayTrips": [
       {
@@ -429,6 +444,7 @@
           },
           {
             "title": "The Atomium & Mini-Europe",
+            "image": "images/brussels_attraction.jpg",
             "description": "Built for the 1958 World's Fair, this giant stainless steel atom offers panoramic views, with a park of miniature European landmarks sitting at its base."
           }
         ]
@@ -438,6 +454,7 @@
         "items": [
           {
             "title": "The Waffles",
+            "image": "images/brussels_food.jpg",
             "description": "There are two main types. The **Brussels Waffle** is rectangular, light, and crispy (usually eaten sitting down with toppings). The **Liège Waffle** is dense, chewy, and packed with pearl sugar that caramelizes on the iron (best eaten warm from a street vendor while walking)."
           },
           {
