@@ -125,10 +125,12 @@ const App = {
     renderDetails: (city) => {
         const container = document.getElementById('city-details');
 
+        const bannerHtml = city.bannerImage ? `<img src="${city.bannerImage}" class="city-banner" alt="${city.name} Banner">` : '';
         const dayTripIntroHtml = city.dayTripIntro ? `<p class="section-intro">${city.dayTripIntro}</p>` : '';
 
         const dayTripsHtml = city.dayTrips.map(trip => `
             <li class="day-trip-item">
+                ${trip.image ? `<img src="${trip.image}" class="content-image" alt="${trip.title}">` : ''}
                 <h4>${trip.title}</h4>
                 <p>${trip.description}</p>
             </li>
@@ -185,6 +187,7 @@ const App = {
             if (ed.primaryDestination) {
                 const items = ed.primaryDestination.items.map(item => `
                     <div class="section-list-item">
+                        ${item.image ? `<img src="${item.image}" class="content-image" alt="${item.title}">` : ''}
                         <h4>${item.title}</h4>
                         <p>${item.description}</p>
                     </div>
@@ -200,6 +203,7 @@ const App = {
             if (ed.attractions) {
                 const items = ed.attractions.items.map(item => `
                     <div class="section-list-item">
+                        ${item.image ? `<img src="${item.image}" class="content-image" alt="${item.title}">` : ''}
                         <h4>${item.title}</h4>
                         <p>${item.description}</p>
                     </div>
@@ -215,6 +219,7 @@ const App = {
             if (ed.food) {
                 const items = ed.food.items.map(item => `
                     <div class="section-list-item">
+                        ${item.image ? `<img src="${item.image}" class="content-image" alt="${item.title}">` : ''}
                         <h4>${item.title}</h4>
                         <p>${item.description}</p>
                     </div>
@@ -245,6 +250,7 @@ const App = {
         }
 
         container.innerHTML = `
+            ${bannerHtml}
             <div class="city-header">
                 <h2>${city.name}, ${city.country}</h2>
                 ${connectionBadge}
