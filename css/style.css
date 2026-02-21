@@ -399,6 +399,14 @@ header h1 {
   margin-bottom: 3px;
 }
 
+.historical-context-section h2 {
+  color: var(--primary-color);
+  border-bottom: 2px solid var(--border-color);
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  margin-top: 40px;
+}
+
 /* Image Styles */
 .city-banner {
   width: 100%;

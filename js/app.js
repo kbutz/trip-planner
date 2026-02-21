@@ -145,6 +145,31 @@ const App = {
         let attractionsHtml = '';
         let foodHtml = '';
         let itineraryHtml = '';
+        let historicalContextHtml = '';
+
+        if (city.historicalContext) {
+            const sections = city.historicalContext.sections.map(section => {
+                const items = section.items.map(item => `
+                    <div class="section-list-item">
+                        <h4>${item.title}</h4>
+                        <p>${item.description}</p>
+                    </div>
+                `).join('');
+                return `
+                    <div class="extended-section">
+                        <h3>${section.title}</h3>
+                        ${items}
+                    </div>
+                `;
+            }).join('');
+
+            historicalContextHtml = `
+                <div class="historical-context-section">
+                    <h2>Historical Context</h2>
+                    ${sections}
+                </div>
+            `;
+        }
 
         if (city.extendedDetails) {
             const ed = city.extendedDetails;
@@ -259,6 +284,7 @@ const App = {
             ${attractionsHtml}
             ${foodHtml}
             ${itineraryHtml}
+            ${historicalContextHtml}
         `;
     },
 
