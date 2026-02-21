@@ -6,185 +6,43 @@
     <title>European Family Trip Ideas from PDX</title>
 
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
-
-    <style>
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-            background-color: #f4f4f9;
-            color: #333;
-            margin: 0;
-            padding: 20px;
-            line-height: 1.6;
-        }
-        .container {
-            max-width: 900px;
-            margin: 0 auto;
-            background: #fff;
-            padding: 30px;
-            border-radius: 12px;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
-        }
-        h1 { margin-top: 0; }
-        .nav-tabs {
-            display: flex;
-            gap: 10px;
-            margin-bottom: 20px;
-            border-bottom: 2px solid #eee;
-            padding-bottom: 10px;
-        }
-        .tab-btn {
-            padding: 10px 20px;
-            border: none;
-            background: #e9ecef;
-            cursor: pointer;
-            border-radius: 6px;
-            font-size: 16px;
-            font-weight: 600;
-            transition: background 0.2s;
-        }
-        .tab-btn.active, .tab-btn:hover {
-            background: #007bff;
-            color: white;
-        }
-        #map {
-            height: 450px;
-            width: 100%;
-            border-radius: 8px;
-            margin-bottom: 20px;
-            z-index: 1;
-        }
-        .city-content {
-            display: none;
-        }
-        .city-content.active {
-            display: block;
-        }
-        .travel-card {
-            background: #f8f9fa;
-            border-left: 4px solid #007bff;
-            padding: 15px;
-            margin-bottom: 20px;
-            border-radius: 4px;
-        }
-    </style>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-<div class="container">
-    <h1>European Family Trip Ideas from PDX</h1>
+<div class="app-container">
+    <header>
+        <h1>European Family Trip Ideas from PDX</h1>
+    </header>
 
-    <div class="nav-tabs">
-        <button class="tab-btn active" onclick="switchCity('reykjavik')">Reykjavik</button>
-        <button class="tab-btn" onclick="switchCity('amsterdam')">Amsterdam</button>
-        <button class="tab-btn" onclick="switchCity('frankfurt')">Frankfurt</button>
-    </div>
-
-    <div id="map"></div>
-
-    <div id="reykjavik" class="city-content active">
-        <h2>Reykjavik, Iceland</h2>
-        <div class="travel-card">
-            <strong>Travel:</strong> Non-stop PDX -> KEF | <strong>Flight Time:</strong> ~7 hr 35 min
+    <aside class="sidebar">
+        <div class="filters">
+            <div class="filter-group">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="direct">Direct</button>
+                <button class="filter-btn" data-filter="1-stop">1 Stop</button>
+            </div>
         </div>
-        <h3>Top Day Trips & Walks</h3>
-        <ul>
-            <li><strong>The Golden Circle:</strong> Easy, flat walking paths right between tectonic plates and geysers.</li>
-            <li><strong>Reykjadalur:</strong> A moderate valley hike ending in a naturally warm river you can bathe in.</li>
-            <li><strong>City Center:</strong> Walk around Tjörnin (city pond) and the Harpa Concert Hall interactive play areas.</li>
+        <ul id="destination-list" class="destination-list">
+            <!-- Populated by JS -->
+            <li style="padding: 20px; color: #666;">Loading destinations...</li>
         </ul>
-    </div>
+    </aside>
 
-    <div id="amsterdam" class="city-content">
-        <h2>Amsterdam, Netherlands</h2>
-        <div class="travel-card">
-            <strong>Travel:</strong> Non-stop PDX -> AMS | <strong>Flight Time:</strong> ~9 hr 35 min
+    <main class="main-content">
+        <div id="map"></div>
+        <div class="details-panel">
+            <div id="city-details" class="details-container">
+                <div style="text-align: center; padding: 40px; color: #666;">
+                    Select a destination to view details.
+                </div>
+            </div>
         </div>
-        <h3>Top Day Trips & Walks</h3>
-        <ul>
-            <li><strong>Zandvoort aan Zee:</strong> 30-min train to the coast for wide beaches and easy dune walks.</li>
-            <li><strong>Zaanse Schans:</strong> Short trip north for historic windmills and live demonstrations.</li>
-            <li><strong>Vondelpark & Jordaan:</strong> Massive car-free park walking and picturesque canal streets.</li>
-        </ul>
-    </div>
-
-    <div id="frankfurt" class="city-content">
-        <h2>Frankfurt, Germany</h2>
-        <div class="travel-card">
-            <strong>Travel:</strong> Non-stop PDX -> FRA | <strong>Flight Time:</strong> ~10 hr 20 min
-        </div>
-        <h3>Top Day Trips & Walks</h3>
-        <ul>
-            <li><strong>The Rhine Valley:</strong> Short train to riverboats, dotted with hillside castle ruins.</li>
-            <li><strong>Taunus Nature Park:</strong> Gentle, heavily wooded trails ending at a reconstructed Roman fort.</li>
-            <li><strong>Main River Promenade:</strong> Flat, tree-lined walking paths starting right from the old town square.</li>
-        </ul>
-    </div>
+    </main>
 </div>
 
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+<script src="js/app.js"></script>
 
-<script>
-    const cityData = {
-        reykjavik: {
-            center: [64.1466, -21.9426],
-            zoom: 8,
-            markers: [
-                { coords: [64.1466, -21.9426], title: "Reykjavik City Center" },
-                { coords: [64.2556, -21.1296], title: "Thingvellir National Park (Golden Circle)" },
-                { coords: [64.0226, -21.2116], title: "Reykjadalur Hot Spring River" }
-            ]
-        },
-        amsterdam: {
-            center: [52.3676, 4.9041],
-            zoom: 10,
-            markers: [
-                { coords: [52.3676, 4.9041], title: "Amsterdam City Center (Vondelpark)" },
-                { coords: [52.3736, 4.5297], title: "Zandvoort aan Zee (Beach Day)" },
-                { coords: [52.4728, 4.8219], title: "Zaanse Schans (Windmills)" }
-            ]
-        },
-        frankfurt: {
-            center: [50.1109, 8.6821],
-            zoom: 9,
-            markers: [
-                { coords: [50.1109, 8.6821], title: "Frankfurt (Römerberg / Main River)" },
-                { coords: [49.9760, 7.9130], title: "The Rhine Valley (Bingen / Rüdesheim)" },
-                { coords: [50.2709, 8.5670], title: "Taunus Nature Park (Saalburg)" }
-            ]
-        }
-    };
-
-    let map = L.map('map').setView(cityData.reykjavik.center, cityData.reykjavik.zoom);
-    let currentMarkers = [];
-
-    L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
-        maxZoom: 19,
-        attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
-    }).addTo(map);
-
-    function renderMarkers(cityKey) {
-        currentMarkers.forEach(marker => map.removeLayer(marker));
-        currentMarkers = [];
-
-        cityData[cityKey].markers.forEach(spot => {
-            let m = L.marker(spot.coords).addTo(map).bindPopup(spot.title);
-            currentMarkers.push(m);
-        });
-    }
-
-    function switchCity(cityKey) {
-        document.querySelectorAll('.tab-btn').forEach(btn => btn.classList.remove('active'));
-        event.target.classList.add('active');
-
-        document.querySelectorAll('.city-content').forEach(content => content.classList.remove('active'));
-        document.getElementById(cityKey).classList.add('active');
-
-        map.setView(cityData[cityKey].center, cityData[cityKey].zoom);
-        renderMarkers(cityKey);
-    }
-
-    renderMarkers('reykjavik');
-
-</script>
 </body>
 </html>

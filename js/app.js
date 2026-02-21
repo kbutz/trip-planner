@@ -1,0 +1,166 @@
+const App = {
+    data: [],
+    filteredData: [],
+    map: null,
+    currentMarkers: [],
+    currentFilter: 'all', // 'all', 'direct', '1-stop'
+
+    init: async () => {
+        App.initMap();
+        await App.fetchData();
+        App.setupFilters();
+        App.applyFilter('all'); // Default filter
+    },
+
+    initMap: () => {
+        // Initialize with a default view, will be updated when data loads
+        App.map = L.map('map').setView([50, 10], 4);
+
+        L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            maxZoom: 19,
+            attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+        }).addTo(App.map);
+    },
+
+    fetchData: async () => {
+        try {
+            const response = await fetch('data/destinations.json');
+            App.data = await response.json();
+        } catch (error) {
+            console.error('Error fetching data:', error);
+            // Fallback for local testing without server if fetch fails (optional, but good for robustness)
+            document.querySelector('.destination-list').innerHTML = '<li style="padding:20px; color:red">Error loading data. Please run via a local server.</li>';
+        }
+    },
+
+    setupFilters: () => {
+        const filterBtns = document.querySelectorAll('.filter-btn');
+        filterBtns.forEach(btn => {
+            btn.addEventListener('click', (e) => {
+                // Remove active class from all
+                filterBtns.forEach(b => b.classList.remove('active'));
+                // Add to clicked
+                e.target.classList.add('active');
+
+                const filterType = e.target.dataset.filter;
+                App.applyFilter(filterType);
+            });
+        });
+    },
+
+    applyFilter: (filterType) => {
+        App.currentFilter = filterType;
+
+        if (filterType === 'all') {
+            App.filteredData = App.data;
+        } else {
+            App.filteredData = App.data.filter(city => city.connectionType === filterType);
+        }
+
+        App.renderList();
+
+        // Select the first item in the filtered list if available
+        if (App.filteredData.length > 0) {
+            App.selectCity(App.filteredData[0]);
+        }
+    },
+
+    renderList: () => {
+        const listContainer = document.getElementById('destination-list');
+        listContainer.innerHTML = '';
+
+        if (App.filteredData.length === 0) {
+            listContainer.innerHTML = '<li class="destination-item">No destinations found.</li>';
+            return;
+        }
+
+        App.filteredData.forEach(city => {
+            const li = document.createElement('li');
+            li.className = 'destination-item';
+            li.dataset.id = city.id;
+            li.innerHTML = `
+                <h3>${city.name}</h3>
+                <div class="destination-meta">
+                    <span>${city.country}</span>
+                    <span>${city.flightTime}</span>
+                </div>
+            `;
+            li.addEventListener('click', () => App.selectCity(city));
+            listContainer.appendChild(li);
+        });
+    },
+
+    selectCity: (city) => {
+        // Update active state in list
+        document.querySelectorAll('.destination-item').forEach(item => {
+            item.classList.remove('active');
+            if (item.dataset.id === city.id) {
+                item.classList.add('active');
+            }
+        });
+
+        App.renderDetails(city);
+        App.updateMap(city);
+    },
+
+    renderDetails: (city) => {
+        const container = document.getElementById('city-details');
+
+        const dayTripsHtml = city.dayTrips.map(trip => `
+            <div class="trip-card">
+                <h4>${trip.title}</h4>
+                <p>${trip.description}</p>
+            </div>
+        `).join('');
+
+        const connectionBadge = city.connectionType === 'direct'
+            ? '<span class="badge direct">Direct</span>'
+            : '<span class="badge warning">1 Stop</span>';
+
+        container.innerHTML = `
+            <div class="city-header">
+                <h2>${city.name}, ${city.country}</h2>
+                ${connectionBadge}
+            </div>
+
+            <div class="travel-info">
+                <div class="travel-stat">
+                    <span>Flight Time</span>
+                    <span>${city.flightTime}</span>
+                </div>
+                <div class="travel-stat">
+                    <span>Route</span>
+                    <span>${city.route}</span>
+                </div>
+            </div>
+
+            <p>${city.description}</p>
+
+            <div class="day-trips-section">
+                <h3>Top Day Trips & Walks</h3>
+                <div class="day-trips-grid">
+                    ${dayTripsHtml}
+                </div>
+            </div>
+        `;
+    },
+
+    updateMap: (city) => {
+        // Clear existing markers
+        App.currentMarkers.forEach(marker => App.map.removeLayer(marker));
+        App.currentMarkers = [];
+
+        // Set view
+        App.map.setView(city.map.center, city.map.zoom);
+
+        // Add new markers
+        city.map.markers.forEach(spot => {
+            const marker = L.marker(spot.coords)
+                .addTo(App.map)
+                .bindPopup(`<b>${spot.title}</b>`);
+            App.currentMarkers.push(marker);
+        });
+    }
+};
+
+document.addEventListener('DOMContentLoaded', App.init);
