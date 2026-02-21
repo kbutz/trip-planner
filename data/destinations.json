@@ -10,7 +10,7 @@
     "dayTrips": [
       {
         "title": "The Golden Circle",
-        "description": "A classic route via scheduled coach. Features highly accessible, flat walking paths between tectonic plates at Thingvellir National Park, erupting geysers, and the massive Gullfoss waterfall."
+        "description": "A classic route via scheduled coach featuring highly accessible, flat walking paths right between tectonic plates at Thingvellir National Park."
       },
       {
         "title": "The South Coast",
@@ -18,7 +18,7 @@
       },
       {
         "title": "Reykjadalur Thermal River",
-        "description": "Accessible via the local public bus system (Route 51). It involves a moderate hike up a beautiful valley past steam vents, ending at a naturally heated river where you can wade in and relax."
+        "description": "Accessible via local public bus (Route 51). Involves a moderate hike up a beautiful valley past steam vents, ending at a naturally heated river."
       }
     ],
     "extendedDetails": {
@@ -31,15 +31,15 @@
         "items": [
           {
             "title": "City Walking & Culture",
-            "description": "Wander around Tjörnin (the central city pond) and the harbor paths. The city has a phenomenal baking culture, so grab fresh sourdough or massive cinnamon rolls (*snúður*) while walking between local record shops and acoustic music venues."
+            "description": "Wander around Tjörnin (the central city pond). The city has a phenomenal baking culture, so grab fresh sourdough or massive cinnamon rolls (snúður) while exploring local record shops and acoustic music venues."
           },
           {
             "title": "Public Pools",
-            "description": "Locals gather at public geothermal pools. Places like Laugardalslaug are accessible by local bus and feature massive, warm outdoor hot tubs and water slides."
+            "description": "Locals gather at public geothermal pools like Laugardalslaug, accessible by local bus and featuring massive, warm outdoor hot tubs and water slides."
           },
           {
-            "title": "Harbor District",
-            "description": "The Grandi area is packed with artisan food producers, fresh ice cream shops, and coastal walking paths."
+            "title": "The Obscure Explorer Sites",
+            "description": "Visit the Gossip Ledge (Kjaftasker) at the corner of Skólavörðustígur and Bergstaðastræti—the historic, physical communication network of the city before modern pools existed. Then, view the excavated Viking-age ruins beneath Aðalstræti 10, the city's oldest timber house."
           }
         ]
       },
