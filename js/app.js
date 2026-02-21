@@ -7,6 +7,7 @@ const App = {
 
     init: async () => {
         App.initMap();
+        App.setupMapToggle();
         await App.fetchData();
         App.setupFilters();
         App.applyFilter('all'); // Default filter
@@ -20,6 +21,24 @@ const App = {
             maxZoom: 19,
             attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
         }).addTo(App.map);
+    },
+
+    setupMapToggle: () => {
+        const toggleBtn = document.getElementById('map-toggle');
+        const mapContainer = document.getElementById('map-container');
+
+        if (toggleBtn && mapContainer) {
+            toggleBtn.addEventListener('click', () => {
+                mapContainer.classList.toggle('expanded');
+                const isExpanded = mapContainer.classList.contains('expanded');
+                toggleBtn.textContent = isExpanded ? 'Collapse Map' : 'Expand Map';
+
+                // Invalidate map size after transition to ensure tiles load correctly
+                setTimeout(() => {
+                    App.map.invalidateSize();
+                }, 300);
+            });
+        }
     },
 
     fetchData: async () => {
