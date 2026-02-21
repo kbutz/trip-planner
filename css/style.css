@@ -248,31 +248,34 @@ header h1 {
   margin-bottom: 20px;
 }
 
-.day-trips-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 20px;
+.day-trips-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
-.trip-card {
+.day-trip-item {
   background: white;
   padding: 20px;
   border-radius: var(--radius);
   box-shadow: var(--shadow-sm);
+  margin-bottom: 15px;
+  border-left: 4px solid var(--accent-color);
   transition: transform 0.2s, box-shadow 0.2s;
 }
 
-.trip-card:hover {
+.day-trip-item:hover {
   transform: translateY(-2px);
   box-shadow: var(--shadow-md);
 }
 
-.trip-card h4 {
-  margin: 0 0 10px 0;
+.day-trip-item h4 {
+  margin: 0 0 5px 0;
   color: var(--primary-color);
+  font-size: 1.1rem;
 }
 
-.trip-card p {
+.day-trip-item p {
   margin: 0;
   font-size: 0.95rem;
   color: var(--text-light);
