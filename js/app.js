@@ -125,6 +125,8 @@ const App = {
     renderDetails: (city) => {
         const container = document.getElementById('city-details');
 
+        const dayTripIntroHtml = city.dayTripIntro ? `<p class="section-intro">${city.dayTripIntro}</p>` : '';
+
         const dayTripsHtml = city.dayTrips.map(trip => `
             <div class="trip-card">
                 <h4>${trip.title}</h4>
@@ -242,6 +244,7 @@ const App = {
 
             <div class="day-trips-section">
                 <h3>Top Day Trips & Walks</h3>
+                ${dayTripIntroHtml}
                 <div class="day-trips-grid">
                     ${dayTripsHtml}
                 </div>
