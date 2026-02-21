@@ -117,18 +117,35 @@
     "flightTime": "9 hr 35 min",
     "route": "PDX -> AMS",
     "description": "The city is structured around concentric rings of canals. It’s highly picturesque and visually stunning, but walkers do need to stay alert and stay out of the dedicated bicycle lanes!",
+    "dayTripIntro": "The Dutch rail system is phenomenal. You simply tap in at Amsterdam Centraal station and can be in an entirely different landscape in under an hour. These options skip the massive crowds and focus on hands-on exploration, sprawling gardens, and historic food culture.",
     "dayTrips": [
       {
-        "title": "Zandvoort aan Zee",
-        "description": "A 30-minute direct train drops you right at the North Sea coast. It features massive, wide sandy beaches and paved paths weaving through protected coastal dunes."
+        "title": "Leiden (Botanical Gardens & Quiet Canals)",
+        "description": "About 35 minutes by train. Leiden offers the same picturesque, bridge-lined canals as Amsterdam but with a fraction of the tourists. It is home to the Hortus botanicus Leiden, the oldest botanical garden in the Netherlands. You can spend hours walking the massive outdoor beds, historic medicinal herb gardens, and intricate tropical greenhouse complexes."
       },
       {
-        "title": "Utrecht (Museum Speelklok)",
-        "description": "About 25 minutes by train. Utrecht has beautiful, sunken canals, but the star is Museum Speelklok—a highly interactive museum dedicated entirely to self-playing musical instruments, from intricate music boxes to massive, booming street organs."
+        "title": "Amersfoort (Medieval Gates & Cobblestones)",
+        "description": "About 45 minutes by train. The historic center feels like stepping into a sprawling adventure game. The city is completely encircled by its original medieval walls, and exploring the Koppelpoort—a massive 15th-century combined land and water gate—offers a fantastic labyrinth of cobblestones, bridges, and defensive towers to walk through."
       },
       {
-        "title": "Zaanse Schans",
-        "description": "A quick 20-minute train north brings you to a reconstructed historic village featuring functioning waterfront windmills, traditional timber houses, and live demonstrations of clog making and baking."
+        "title": "Haarlem & Zuid-Kennemerland National Park",
+        "description": "Just 15 minutes by train. Haarlem itself is a stunning historic city with a phenomenal local baking and cafe scene. From the station, you have immediate access to Zuid-Kennemerland National Park. It features miles of wide, sandy trails winding through forested coastal dunes, where you can frequently spot free-roaming Highland cattle and wild horses."
+      },
+      {
+        "title": "Gouda (Syrup Waffles & Market Squares)",
+        "description": "About 55 minutes by train. While famous for its cheese market, Gouda is also the historic birthplace of the Stroopwafel. Walking the historic center means following the scent of warm caramel and baking dough to find traditional bakeries making them fresh from the iron. The central market square is massive and highly walkable, anchored by a stunning 15th-century Gothic town hall."
+      },
+      {
+        "title": "Arnhem (Open-Air History & Forest Trails)",
+        "description": "About 1 hour and 15 minutes by train. Arnhem is the gateway to the Nederlands Openluchtmuseum (Netherlands Open Air Museum). It is a sprawling forested park where dozens of historic Dutch windmills, farmhouses, and workshops have been meticulously relocated and reconstructed. It is entirely hands-on, featuring live demonstrations of traditional bread baking, brewing, and historic crafts."
+      },
+      {
+        "title": "Utrecht (Museum Speelklok & Sunken Canals)",
+        "description": "About 25 minutes by train. Utrecht is defined by its unique bi-level canals, where you can walk down at the water's edge right past historic cellar doors. The star is Museum Speelklok—a highly interactive museum dedicated entirely to self-playing musical instruments. It's fascinating for anyone who appreciates acoustics or plays string and traditional instruments, featuring everything from intricate tiny music boxes to massive, booming street organs."
+      },
+      {
+        "title": "Zandvoort aan Zee (The Coastal Escape)",
+        "description": "A 30-minute direct train drops you right at the North Sea coast. It features massive, wide sandy beaches and paved paths weaving through protected coastal dunes, offering a breezy, relaxed change of pace from the city streets."
       }
     ],
     "extendedDetails": {
@@ -227,18 +244,27 @@
     "flightTime": "10 hr 20 min",
     "route": "PDX -> FRA",
     "description": "Frankfurt offers a striking contrast between a modern, glassy skyline and meticulously reconstructed historic architecture. The city's core is very flat and pedestrian-friendly.",
+    "dayTripIntro": "Frankfurt's central train station is one of the most connected hubs in Europe. By hopping on a regional DB train or the local S-Bahn, you can leave the skyscrapers behind and step directly into dense forests, fairy-tale villages, and historic baking towns.",
     "dayTrips": [
       {
-        "title": "The Rhine Valley",
-        "description": "Take a short train to towns like Bingen or Rüdesheim. From there, you can hop on a riverboat. The hillsides are dotted with ancient castle ruins, and there are plenty of short, highly accessible trails leading up through the trees to incredible viewpoints."
+        "title": "Limburg an der Lahn (Timber Houses & Bread)",
+        "description": "About 1 hour by train. This town is stunningly preserved, featuring some of the oldest half-timbered houses in Germany.  The narrow alleys feel like a maze winding up to the striking St. George's Cathedral. It is a fantastic place to seek out traditional bakeries for dense German bread and massive warm pretzels."
       },
       {
-        "title": "Taunus Nature Park",
-        "description": "Located just north of Frankfurt, offering heavily wooded, gentle hiking trails that wind through the forest and lead right up to the reconstructed Roman fort of Saalburg."
+        "title": "Marburg (Cobblestones & Botanical Gardens)",
+        "description": "About 1 hour by train. A historic university town built into a steep hillside, crowned by an imposing castle (Landgrafenschloss). It is where the Brothers Grimm studied, and walking the twisting, car-free streets feels entirely like a fairy tale. It is also home to the Alter Botanischer Garten, a beautiful, quiet historic garden right in the city center."
       },
       {
-        "title": "Hessenpark Open-Air Museum",
-        "description": "A fantastic, immersive day trip. It's a sprawling outdoor park where you can walk through reconstructed historic German villages, complete with traditional timber-framed houses, old windmills, and live traditional baking demonstrations."
+        "title": "Eltville am Rhein (Wine, Roses & Printing Presses)",
+        "description": "About 50 minutes by train. Known as the City of Wine and Roses, this is a much quieter, highly walkable alternative to the busy Rhine towns. You can stroll the flat, scenic river promenade and visit the Electoral Castle (Kurfürstliche Burg), which features massive rose gardens and a historical exhibit dedicated to Johannes Gutenberg's early printing presses."
+      },
+      {
+        "title": "Kronberg im Taunus (Castle Ruins & Forest Walks)",
+        "description": "Just 20 minutes away on the local S-Bahn. Kronberg is a quiet enclave right at the base of the Taunus mountains. It features a fantastic ruined castle (Burg Kronberg) with towers and battlements you can climb around, and the town is bordered by massive chestnut forests offering miles of easy, shaded walking trails."
+      },
+      {
+        "title": "Michelstadt (Deep Forest History)",
+        "description": "About 1 hour and 15 minutes by train. Located deep in the lush Odenwald forest, Michelstadt features one of the most unique, photographed medieval town halls in the country—built entirely on massive wooden stilts. The twisting, car-free alleys are perfect for exploring, with easy access to the surrounding nature park trails."
       }
     ],
     "extendedDetails": {
