@@ -128,10 +128,10 @@ const App = {
         const dayTripIntroHtml = city.dayTripIntro ? `<p class="section-intro">${city.dayTripIntro}</p>` : '';
 
         const dayTripsHtml = city.dayTrips.map(trip => `
-            <div class="trip-card">
+            <li class="day-trip-item">
                 <h4>${trip.title}</h4>
                 <p>${trip.description}</p>
-            </div>
+            </li>
         `).join('');
 
         const connectionBadge = city.connectionType === 'direct'
@@ -245,9 +245,9 @@ const App = {
             <div class="day-trips-section">
                 <h3>Top Day Trips & Walks</h3>
                 ${dayTripIntroHtml}
-                <div class="day-trips-grid">
+                <ul class="day-trips-list">
                     ${dayTripsHtml}
-                </div>
+                </ul>
             </div>
 
             ${attractionsHtml}
@@ -265,13 +265,34 @@ const App = {
             // Set view with animation disabled for stability
             App.map.setView(city.map.center, city.map.zoom, { animate: false });
 
-            // Add new markers
-            city.map.markers.forEach(spot => {
-                const marker = L.marker(spot.coords)
-                    .addTo(App.map)
-                    .bindPopup(`<b>${spot.title}</b>`);
-                App.currentMarkers.push(marker);
-            });
+            if (city.map.markers.length > 0) {
+                const primarySpot = city.map.markers[0];
+                const primaryLatLng = L.latLng(primarySpot.coords);
+
+                city.map.markers.forEach((spot, index) => {
+                    const spotLatLng = L.latLng(spot.coords);
+
+                    // Add marker
+                    const marker = L.marker(spot.coords)
+                        .addTo(App.map)
+                        .bindPopup(`<b>${spot.title}</b>`);
+                    App.currentMarkers.push(marker);
+
+                    // Draw line from primary if distant enough (> 2km) and not the primary itself
+                    if (index > 0) {
+                        const distance = primaryLatLng.distanceTo(spotLatLng);
+                        if (distance > 2000) {
+                             const polyline = L.polyline([primarySpot.coords, spot.coords], {
+                                color: '#3498db', // accent-color
+                                weight: 2,
+                                opacity: 0.6,
+                                dashArray: '5, 10'
+                            }).addTo(App.map);
+                            App.currentMarkers.push(polyline);
+                        }
+                    }
+                });
+            }
         } catch (e) {
             console.error('Error in updateMap:', e);
         }
