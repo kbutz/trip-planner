@@ -6,28 +6,106 @@
     "connectionType": "direct",
     "flightTime": "7 hr 35 min",
     "route": "PDX -> KEF",
-    "description": "Reykjavik is the capital and largest city of Iceland. It is located in southwestern Iceland, on the southern shore of Faxaflói bay.",
+    "description": "Reykjavik's downtown is compact, colorful, and feels more like a large coastal town than a sprawling European capital.",
     "dayTrips": [
       {
         "title": "The Golden Circle",
-        "description": "Easy, flat walking paths right between tectonic plates and geysers."
+        "description": "A classic route via scheduled coach. Features highly accessible, flat walking paths between tectonic plates at Thingvellir National Park, erupting geysers, and the massive Gullfoss waterfall."
       },
       {
-        "title": "Reykjadalur",
-        "description": "A moderate valley hike ending in a naturally warm river you can bathe in."
+        "title": "The South Coast",
+        "description": "A scheduled coach heads down to dramatic black sand beaches and towering waterfalls like Seljalandsfoss, which has a path allowing you to walk behind the falling water."
       },
       {
-        "title": "City Center",
-        "description": "Walk around Tjörnin (city pond) and the Harpa Concert Hall interactive play areas."
+        "title": "Reykjadalur Thermal River",
+        "description": "Accessible via the local public bus system (Route 51). It involves a moderate hike up a beautiful valley past steam vents, ending at a naturally heated river where you can wade in and relax."
       }
     ],
+    "extendedDetails": {
+      "gettingAround": {
+        "text": "Completely car-free. We will rely on the highly walkable downtown, the yellow public bus system (*Strætó*) for town-to-town travel, and comfortable, scheduled tourist coaches for reaching the major natural landmarks and trailheads.",
+        "note": "There are absolutely no public trains in Iceland!"
+      },
+      "primaryDestination": {
+        "title": "Exploring the Primary Destination: Reykjavik",
+        "items": [
+          {
+            "title": "City Walking & Culture",
+            "description": "Wander around Tjörnin (the central city pond) and the harbor paths. The city has a phenomenal baking culture, so grab fresh sourdough or massive cinnamon rolls (*snúður*) while walking between local record shops and acoustic music venues."
+          },
+          {
+            "title": "Public Pools",
+            "description": "Locals gather at public geothermal pools. Places like Laugardalslaug are accessible by local bus and feature massive, warm outdoor hot tubs and water slides."
+          },
+          {
+            "title": "Harbor District",
+            "description": "The Grandi area is packed with artisan food producers, fresh ice cream shops, and coastal walking paths."
+          }
+        ]
+      },
+      "attractions": {
+        "title": "The 'In the Know' Tourist Attractions",
+        "items": [
+          {
+            "title": "The Blue Lagoon & Sky Lagoon",
+            "description": "Massive, commercialized geothermal spas offering a luxurious soaking experience (requires booking well in advance)."
+          },
+          {
+            "title": "Hallgrímskirkja",
+            "description": "The iconic, towering concrete church. Tourists flock here for panoramic views of the city."
+          },
+          {
+            "title": "Perlan (Wonders of Iceland)",
+            "description": "A glass-domed interactive museum with a planetarium and a man-made indoor ice cave."
+          }
+        ]
+      },
+      "food": {
+        "title": "Local Food & Dining",
+        "items": [
+          {
+            "title": "Grocery Stores (Bónus and Krónan)",
+            "description": "Stock up on **Skyr** (dense, protein-rich cultured dairy), **Harðfiskur** (dried fish jerky), fresh greenhouse-grown tomatoes/cucumbers, and **Rúgbrauð** (dense geothermal rye bread)."
+          },
+          {
+            "title": "Casual & Street Food",
+            "description": "The **Icelandic Hot Dog** (*pylsa*) made of free-range lamb with all the toppings. **Kjötsúpa** (traditional lamb and root vegetable meat soup) is perfect after a hike."
+          },
+          {
+            "title": "Restaurants",
+            "description": "Expect incredibly fresh seafood like pan-fried Arctic char and Atlantic cod. A classic comfort dish is **Plokkfiskur**, a creamy fish and potato stew."
+          }
+        ]
+      },
+      "itinerary": {
+        "title": "10-Day Itinerary",
+        "items": [
+          { "day": "Day 1", "activity": "Afternoon non-stop flight out of PDX." },
+          { "day": "Day 2", "activity": "Arrive at KEF. Board the Flybus into the city. Walk around Tjörnin and grab hot dogs at Bæjarins Beztu Pylsur." },
+          { "day": "Day 3", "activity": "Fresh sourdough and pastries. Explore Harpa Concert Hall's interactive acoustic room. Afternoon Strætó bus to Laugardalslaug pool." },
+          { "day": "Day 4", "activity": "Scheduled Golden Circle Coach (Thingvellir, Geysir, Gullfoss). Hearty Kjötsúpa for dinner." },
+          { "day": "Day 5", "activity": "Grocery run for Skyr and Rúgbrauð. Walk up Hallgrímskirkja and browse local record shops. Cook dinner together." },
+          { "day": "Day 6", "activity": "Scheduled South Coast Coach (Seljalandsfoss, Skógafoss, Reynisfjara black sand beach)." },
+          { "day": "Day 7", "activity": "Route 51 bus to Hveragerði. Moderate hike to the Reykjadalur thermal river to wade and relax." },
+          { "day": "Day 8", "activity": "Whales of Iceland exhibition in the Grandi harbor district. Ice cream and coastal walking." },
+          { "day": "Day 9", "activity": "Bus to Perlan to see the indoor ice cave. Souvenir shopping and a celebratory final dinner." },
+          { "day": "Day 10", "activity": "Flybus back to KEF. Non-stop flight home to Portland." }
+        ]
+      }
+    },
     "map": {
       "center": [64.1466, -21.9426],
       "zoom": 8,
       "markers": [
         { "coords": [64.1466, -21.9426], "title": "Reykjavik City Center" },
         { "coords": [64.2556, -21.1296], "title": "Thingvellir National Park (Golden Circle)" },
-        { "coords": [64.0226, -21.2116], "title": "Reykjadalur Hot Spring River" }
+        { "coords": [64.0226, -21.2116], "title": "Reykjadalur Hot Spring River" },
+        { "coords": [63.8804, -22.4495], "title": "Blue Lagoon" },
+        { "coords": [64.1417, -21.9266], "title": "Hallgrímskirkja" },
+        { "coords": [64.1292, -21.9185], "title": "Perlan" },
+        { "coords": [64.3271, -20.1199], "title": "Gullfoss" },
+        { "coords": [63.6156, -19.9885], "title": "Seljalandsfoss" },
+        { "coords": [63.4036, -19.0470], "title": "Reynisfjara (Black Sand Beach)" }
       ]
     }
   },

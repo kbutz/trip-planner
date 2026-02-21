@@ -292,3 +292,75 @@ header h1 {
     overflow: visible;
   }
 }
+
+/* Extended Details */
+.extended-section {
+  background: white;
+  padding: 20px;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-sm);
+  margin-bottom: 20px;
+}
+
+.extended-section h3 {
+  margin: 0 0 15px 0;
+  color: var(--primary-color);
+  font-size: 1.2rem;
+  border-bottom: 2px solid var(--border-color);
+  padding-bottom: 10px;
+}
+
+.transit-note {
+  color: #c0392b;
+  font-weight: 600;
+  margin-top: 15px;
+  padding: 10px 15px;
+  background-color: #fce4ec;
+  border-left: 4px solid #c0392b;
+  border-radius: 4px;
+}
+
+.section-list-item {
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.section-list-item:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.section-list-item h4 {
+  margin: 0 0 5px 0;
+  color: var(--primary-color);
+  font-size: 1rem;
+}
+
+.section-list-item p {
+  margin: 0;
+  font-size: 0.95rem;
+  color: var(--text-light);
+  line-height: 1.5;
+}
+
+.itinerary-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.itinerary-item {
+  padding: 10px;
+  background-color: var(--bg-color);
+  border-radius: var(--radius);
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+.itinerary-item strong {
+  color: var(--primary-color);
+  display: block;
+  margin-bottom: 3px;
+}

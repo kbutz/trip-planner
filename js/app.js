@@ -117,6 +117,87 @@ const App = {
             ? '<span class="badge direct">Direct</span>'
             : '<span class="badge warning">1 Stop</span>';
 
+        let gettingAroundHtml = '';
+        let primaryDestHtml = '';
+        let attractionsHtml = '';
+        let foodHtml = '';
+        let itineraryHtml = '';
+
+        if (city.extendedDetails) {
+            const ed = city.extendedDetails;
+
+            if (ed.gettingAround) {
+                gettingAroundHtml = `
+                    <div class="extended-section">
+                        <h3>Getting Around</h3>
+                        <p>${ed.gettingAround.text}</p>
+                        ${ed.gettingAround.note ? `<p class="transit-note">🚨 ${ed.gettingAround.note}</p>` : ''}
+                    </div>
+                `;
+            }
+
+            if (ed.primaryDestination) {
+                const items = ed.primaryDestination.items.map(item => `
+                    <div class="section-list-item">
+                        <h4>${item.title}</h4>
+                        <p>${item.description}</p>
+                    </div>
+                `).join('');
+                primaryDestHtml = `
+                    <div class="extended-section">
+                        <h3>${ed.primaryDestination.title}</h3>
+                        ${items}
+                    </div>
+                `;
+            }
+
+            if (ed.attractions) {
+                const items = ed.attractions.items.map(item => `
+                    <div class="section-list-item">
+                        <h4>${item.title}</h4>
+                        <p>${item.description}</p>
+                    </div>
+                `).join('');
+                attractionsHtml = `
+                    <div class="extended-section">
+                        <h3>${ed.attractions.title}</h3>
+                        ${items}
+                    </div>
+                `;
+            }
+
+            if (ed.food) {
+                const items = ed.food.items.map(item => `
+                    <div class="section-list-item">
+                        <h4>${item.title}</h4>
+                        <p>${item.description}</p>
+                    </div>
+                `).join('');
+                foodHtml = `
+                    <div class="extended-section">
+                        <h3>${ed.food.title}</h3>
+                        ${items}
+                    </div>
+                `;
+            }
+
+            if (ed.itinerary) {
+                const items = ed.itinerary.items.map(item => `
+                    <div class="itinerary-item">
+                        <strong>${item.day}:</strong> ${item.activity}
+                    </div>
+                `).join('');
+                itineraryHtml = `
+                    <div class="extended-section">
+                        <h3>${ed.itinerary.title}</h3>
+                        <div class="itinerary-list">
+                            ${items}
+                        </div>
+                    </div>
+                `;
+            }
+        }
+
         container.innerHTML = `
             <div class="city-header">
                 <h2>${city.name}, ${city.country}</h2>
@@ -134,7 +215,11 @@ const App = {
                 </div>
             </div>
 
+            ${gettingAroundHtml}
+
             <p>${city.description}</p>
+
+            ${primaryDestHtml}
 
             <div class="day-trips-section">
                 <h3>Top Day Trips & Walks</h3>
@@ -142,6 +227,10 @@ const App = {
                     ${dayTripsHtml}
                 </div>
             </div>
+
+            ${attractionsHtml}
+            ${foodHtml}
+            ${itineraryHtml}
         `;
     },
 
