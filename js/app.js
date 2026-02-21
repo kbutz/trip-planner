@@ -254,20 +254,24 @@ const App = {
     },
 
     updateMap: (city) => {
-        // Clear existing markers
-        App.currentMarkers.forEach(marker => App.map.removeLayer(marker));
-        App.currentMarkers = [];
+        try {
+            // Clear existing markers
+            App.currentMarkers.forEach(marker => App.map.removeLayer(marker));
+            App.currentMarkers = [];
 
-        // Set view
-        App.map.setView(city.map.center, city.map.zoom);
+            // Set view with animation disabled for stability
+            App.map.setView(city.map.center, city.map.zoom, { animate: false });
 
-        // Add new markers
-        city.map.markers.forEach(spot => {
-            const marker = L.marker(spot.coords)
-                .addTo(App.map)
-                .bindPopup(`<b>${spot.title}</b>`);
-            App.currentMarkers.push(marker);
-        });
+            // Add new markers
+            city.map.markers.forEach(spot => {
+                const marker = L.marker(spot.coords)
+                    .addTo(App.map)
+                    .bindPopup(`<b>${spot.title}</b>`);
+                App.currentMarkers.push(marker);
+            });
+        } catch (e) {
+            console.error('Error in updateMap:', e);
+        }
     }
 };
 

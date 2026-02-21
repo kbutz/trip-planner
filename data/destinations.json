@@ -44,7 +44,7 @@
         ]
       },
       "attractions": {
-        "title": "The 'In the Know' Tourist Attractions",
+        "title": "The Important Tourist Attractions",
         "items": [
           {
             "title": "The Blue Lagoon & Sky Lagoon",
@@ -116,28 +116,106 @@
     "connectionType": "direct",
     "flightTime": "9 hr 35 min",
     "route": "PDX -> AMS",
-    "description": "Amsterdam is the capital and most populous city of the Netherlands. It is known for its artistic heritage, elaborate canal system and narrow houses with gabled facades.",
+    "description": "The city is structured around concentric rings of canals. It’s highly picturesque and visually stunning, but walkers do need to stay alert and stay out of the dedicated bicycle lanes!",
     "dayTrips": [
       {
         "title": "Zandvoort aan Zee",
-        "description": "30-min train to the coast for wide beaches and easy dune walks."
+        "description": "A 30-minute direct train drops you right at the North Sea coast. It features massive, wide sandy beaches and paved paths weaving through protected coastal dunes."
+      },
+      {
+        "title": "Utrecht (Museum Speelklok)",
+        "description": "About 25 minutes by train. Utrecht has beautiful, sunken canals, but the star is Museum Speelklok—a highly interactive museum dedicated entirely to self-playing musical instruments, from intricate music boxes to massive, booming street organs."
       },
       {
         "title": "Zaanse Schans",
-        "description": "Short trip north for historic windmills and live demonstrations."
-      },
-      {
-        "title": "Vondelpark & Jordaan",
-        "description": "Massive car-free park walking and picturesque canal streets."
+        "description": "A quick 20-minute train north brings you to a reconstructed historic village featuring functioning waterfront windmills, traditional timber houses, and live demonstrations of clog making and baking."
       }
     ],
+    "extendedDetails": {
+      "gettingAround": {
+        "text": "A masterclass in public transit. The flat landscape is incredibly walkable, but you'll rely heavily on the city's iconic blue-and-white GVB trams and the highly efficient Dutch intercity trains (NS) for day trips."
+      },
+      "primaryDestination": {
+        "title": "Exploring the Primary Destination: Amsterdam",
+        "items": [
+          {
+            "title": "City Walking & Green Spaces",
+            "description": "The Jordaan district is the quintessential walking neighborhood, packed with narrow streets and cozy cafes. For a break from the pavement, Vondelpark is a massive, lush oasis right in the city center. The Hortus Botanicus is also centrally located and one of the oldest botanical gardens in the world, featuring spectacular greenhouses and outdoor beds."
+          },
+          {
+            "title": "Tram Cruising",
+            "description": "Taking the tram is an activity in itself. It’s a fantastic way to rest tired legs while still getting a ground-level view of the historic architecture passing by."
+          },
+          {
+            "title": "Canal Boats",
+            "description": "Viewing the city from the water is entirely different than from the street. Taking an open-air, smaller electric boat tour through the historic rings offers a very relaxed, unique perspective."
+          }
+        ]
+      },
+      "attractions": {
+        "title": "The Important Tourist Attractions",
+        "items": [
+          {
+            "title": "The Rijksmuseum & Van Gogh Museum",
+            "description": "Located right next to each other on Museumplein, these house the country's most famous artistic masterpieces."
+          },
+          {
+            "title": "The Anne Frank House",
+            "description": "A profound and sobering historical site. Tickets are notoriously difficult to get and sell out almost instantly when released."
+          },
+          {
+            "title": "The Heineken Experience",
+            "description": "A massive, highly commercialized brewery tour that draws huge crowds."
+          }
+        ]
+      },
+      "food": {
+        "title": "Local Food & Dining",
+        "items": [
+          {
+            "title": "Bakeries & Sweets",
+            "description": "The Dutch excel at baked goods. Look for **Stroopwafels** (thin waffle cookies joined by caramel, best eaten warm from a street vendor) and thick slices of **Appeltaart** (Dutch apple pie) at local cafes."
+          },
+          {
+            "title": "Pannenkoeken",
+            "description": "Dutch pancakes are large, thin, and can be ordered sweet (with apples and syrup) or savory (with cheese and vegetables). They are a universally beloved meal and a guaranteed hit."
+          },
+          {
+            "title": "Surinamese & Indonesian Food",
+            "description": "Due to its colonial history, Amsterdam has world-class Indonesian and Surinamese food. Indonesian *Rijsttafel* (a massive spread of dozens of small vegetable and protein dishes) is a fantastic, shared dining experience."
+          },
+          {
+            "title": "Cheese & Markets",
+            "description": "Visit local markets (like the Albert Cuyp Market) for incredible fresh produce, wheels of Gouda, and **Vlaamse Frites** (thick-cut fries served in a paper cone, usually smothered in mayonnaise or peanut sauce)."
+          }
+        ]
+      },
+      "itinerary": {
+        "title": "10-Day Itinerary",
+        "items": [
+          { "day": "Day 1", "activity": "Departure: Afternoon non-stop flight out of PDX." },
+          { "day": "Day 2", "activity": "Arrival & The Jordaan: Arrive at AMS. The airport has a train station directly underneath it—hop on a train to Amsterdam Centraal (about 15 minutes). Check in and stretch your legs with an easy walk through the picturesque Jordaan district. Keep it relaxed with a casual dinner of sweet or savory *Pannenkoeken*." },
+          { "day": "Day 3", "activity": "Puzzles & Parks: Take the tram to the NEMO Science Museum, packed with hands-on, interactive logic puzzles and physics experiments. Head to Vondelpark in the afternoon for massive, car-free walking paths." },
+          { "day": "Day 4", "activity": "Musical Instruments in Utrecht: Take a quick 25-minute intercity train south to Utrecht. Walk from the station to Museum Speelklok to see fascinating self-playing musical instruments. Have dinner along Utrecht's unique sunken canals before heading back." },
+          { "day": "Day 5", "activity": "Markets & Botanical Gardens: Visit the Albert Cuyp Market in De Pijp for fresh regional produce, local cheeses, and a warm Stroopwafel. Spend the afternoon at the Hortus Botanicus exploring the spectacular climate-controlled greenhouses." },
+          { "day": "Day 6", "activity": "Coastal Dunes at Zandvoort: Take the 30-minute direct train to Zandvoort aan Zee. Spend the day walking the wide, sandy beaches and the paved trails that weave through the protected coastal dunes." },
+          { "day": "Day 7", "activity": "Windmills & Baking History: Take a quick 20-minute train north to Zaanse Schans. Explore the reconstructed historic village, walk right up to functioning waterfront windmills, and watch live demonstrations of local cheese making and traditional Dutch baking." },
+          { "day": "Day 8", "activity": "Classic Art & Canal Cruising: If you booked time slots in advance, spend the morning at the Rijksmuseum or the Van Gogh Museum on Museumplein. Rest your feet in the afternoon by taking a guided, open-air electric boat tour through the historic canal rings." },
+          { "day": "Day 9", "activity": "Final Explorations: Have a slow morning revisiting a favorite bakery for pastries or grabbing a coffee along the canals. Spend the afternoon picking up last-minute souvenirs or wandering through a street market." },
+          { "day": "Day 10", "activity": "Return Home: Catch the short train from Amsterdam Centraal back to Schiphol Airport (AMS). Board your non-stop flight back to Portland." }
+        ]
+      }
+    },
     "map": {
       "center": [52.3676, 4.9041],
       "zoom": 10,
       "markers": [
-        { "coords": [52.3676, 4.9041], "title": "Amsterdam City Center (Vondelpark)" },
-        { "coords": [52.3736, 4.5297], "title": "Zandvoort aan Zee (Beach Day)" },
-        { "coords": [52.4728, 4.8219], "title": "Zaanse Schans (Windmills)" }
+        { "coords": [52.3580, 4.8686], "title": "Amsterdam City Center (Vondelpark)" },
+        { "coords": [52.3758, 4.5314], "title": "Zandvoort aan Zee" },
+        { "coords": [52.4739, 4.8164], "title": "Zaanse Schans" },
+        { "coords": [52.0903, 5.1189], "title": "Utrecht (Museum Speelklok)" },
+        { "coords": [52.3752, 4.8840], "title": "Anne Frank House" },
+        { "coords": [52.3600, 4.8852], "title": "Rijksmuseum & Van Gogh Museum" }
       ]
     }
   },
@@ -148,28 +226,108 @@
     "connectionType": "direct",
     "flightTime": "10 hr 20 min",
     "route": "PDX -> FRA",
-    "description": "Frankfurt, a central German city on the river Main, is a major financial hub that's home to the European Central Bank. It's the birthplace of famed writer Johann Wolfgang von Goethe.",
+    "description": "Frankfurt offers a striking contrast between a modern, glassy skyline and meticulously reconstructed historic architecture. The city's core is very flat and pedestrian-friendly.",
     "dayTrips": [
       {
         "title": "The Rhine Valley",
-        "description": "Short train to riverboats, dotted with hillside castle ruins."
+        "description": "Take a short train to towns like Bingen or Rüdesheim. From there, you can hop on a riverboat. The hillsides are dotted with ancient castle ruins, and there are plenty of short, highly accessible trails leading up through the trees to incredible viewpoints."
       },
       {
         "title": "Taunus Nature Park",
-        "description": "Gentile, heavily wooded trails ending at a reconstructed Roman fort."
+        "description": "Located just north of Frankfurt, offering heavily wooded, gentle hiking trails that wind through the forest and lead right up to the reconstructed Roman fort of Saalburg."
       },
       {
-        "title": "Main River Promenade",
-        "description": "Flat, tree-lined walking paths starting right from the old town square."
+        "title": "Hessenpark Open-Air Museum",
+        "description": "A fantastic, immersive day trip. It's a sprawling outdoor park where you can walk through reconstructed historic German villages, complete with traditional timber-framed houses, old windmills, and live traditional baking demonstrations."
       }
     ],
+    "extendedDetails": {
+      "gettingAround": {
+        "text": "Highly efficient and fully connected. You'll use the U-Bahn (subway) and S-Bahn (light rail) to zip around the city, and the excellent regional Deutsche Bahn (DB) trains for venturing out to the forests and river valleys."
+      },
+      "primaryDestination": {
+        "title": "Exploring the Primary Destination: Frankfurt",
+        "items": [
+          {
+            "title": "City Walking & Green Spaces",
+            "description": "A perfect walk starts at the Römerberg (the historic old town square) and crosses the Eiserner Steg (Iron Footbridge). This puts you right on the Main River promenade—a wide, flat, tree-lined path perfect for a scenic stroll. For a break from the city, the Palmengarten is a spectacular 50-acre botanical garden right in town."
+          },
+          {
+            "title": "The Kleinmarkthalle",
+            "description": "A massive indoor food market. It is a fantastic place to wander, packed with fresh regional produce, international ingredients, and local food stalls."
+          },
+          {
+            "title": "Sachsenhausen",
+            "description": "Just across the river, this district is famous for its cozy, traditional taverns. It's a great area to explore on foot and often hosts live acoustic and traditional string music in the evenings."
+          }
+        ]
+      },
+      "attractions": {
+        "title": "The Important Tourist Attractions",
+        "items": [
+          {
+            "title": "Senckenberg Natural History Museum",
+            "description": "One of the largest natural history museums in Germany, famous for its massive dinosaur skeletons and extensive fossil collection."
+          },
+          {
+            "title": "The Main Tower",
+            "description": "An iconic skyscraper where visitors can take a high-speed glass elevator to an open-air observation deck for panoramic views of the skyline."
+          },
+          {
+            "title": "Goethe House",
+            "description": "The historic family home of Germany's most famous writer, meticulously restored to show what life looked like in the 18th century."
+          }
+        ]
+      },
+      "food": {
+        "title": "Local Food & Dining",
+        "items": [
+          {
+            "title": "Bakeries & Bread",
+            "description": "You will find a bakery on almost every corner. Staples include massive, warm soft pretzels (*Laugenbrezel*) and incredible pastries like *Apfelstrudel* (apple strudel) with vanilla sauce."
+          },
+          {
+            "title": "Traditional Dishes",
+            "description": "Frankfurt is famous for *Grüne Soße* (Green Sauce), a cold, creamy sauce made from seven fresh regional herbs, typically served over hard-boiled eggs and boiled potatoes. It is light, fresh, and universally loved."
+          },
+          {
+            "title": "Street Food",
+            "description": "Bratwurst stalls are everywhere, offering grilled sausages tucked into fresh, crusty rolls with local mustard. Schnitzel (breaded, pan-fried cutlets) is also a menu staple."
+          },
+          {
+            "title": "Beverages",
+            "description": "The regional specialty is *Apfelwein* (a tart apple cider). It's typically served in traditional diamond-patterned glasses. A sweeter, highly popular version is *Süßgespritzter* (mixed with sweet lemonade), and local, unfiltered apple juice (*Naturtrüber Apfelsaft*) is widely available."
+          }
+        ]
+      },
+      "itinerary": {
+        "title": "10-Day Itinerary",
+        "items": [
+          { "day": "Day 1", "activity": "Departure: Afternoon non-stop flight out of PDX." },
+          { "day": "Day 2", "activity": "Arrival & River Walks: Arrive at FRA. Take the S-Bahn directly from the airport into the city center (about 15 minutes). Check in, then stretch your legs by walking across the Eiserner Steg footbridge and strolling down the Main River promenade. Grab a casual dinner of pretzels and bratwurst." },
+          { "day": "Day 3", "activity": "Old Town & Markets: Walk the cobblestones of the Römerberg. Head to the Kleinmarkthalle to browse the fresh produce and pick up traditional baked goods for lunch. Spend the afternoon exploring the lush grounds of the Palmengarten." },
+          { "day": "Day 4", "activity": "The Rhine Valley: Take a regional train west to the Rhine River. Hop on a riverboat cruise to view the hillside castles, then take an easy hike up the valley trails to explore one of the ruins up close." },
+          { "day": "Day 5", "activity": "Dinosaurs & Acoustic Evenings: Spend the morning at the Senckenberg Natural History Museum walking among the massive dinosaur skeletons. In the evening, head across the river to the Sachsenhausen district for a traditional dinner, keeping an ear out for local acoustic or folk music at the taverns." },
+          { "day": "Day 6", "activity": "Roman Forts & Forest Trails: Take the train north to the Taunus Nature Park. Spend the day walking the shaded forest trails and exploring the ancient reconstructed Roman fort at Saalburg." },
+          { "day": "Day 7", "activity": "Timber Houses at Hessenpark: Take a short transit ride to the Hessenpark Open-Air Museum. Spend the day wandering through the reconstructed historic villages and watching the traditional baking and craftsmanship demonstrations." },
+          { "day": "Day 8", "activity": "Heidelberg Castle: Take a direct train south (about an hour) to the historic town of Heidelberg. Walk the beautiful pedestrian streets and take the funicular railway up the mountain to explore the massive, sprawling castle ruins." },
+          { "day": "Day 9", "activity": "Final Explorations: Have a slow morning grabbing coffee and an Apfelstrudel. Spend the afternoon picking up last-minute souvenirs along the Zeil pedestrian promenade or visiting the top of the Main Tower. Enjoy a celebratory final dinner featuring Schnitzel and Grüne Soße." },
+          { "day": "Day 10", "activity": "Return Home: Take the S-Bahn back to Frankfurt Airport (FRA). Board your non-stop flight back to Portland." }
+        ]
+      }
+    },
     "map": {
       "center": [50.1109, 8.6821],
       "zoom": 9,
       "markers": [
-        { "coords": [50.1109, 8.6821], "title": "Frankfurt (Römerberg / Main River)" },
+        { "coords": [50.1104, 8.6821], "title": "Frankfurt (Römerberg)" },
         { "coords": [49.9760, 7.9130], "title": "The Rhine Valley (Bingen / Rüdesheim)" },
-        { "coords": [50.2709, 8.5670], "title": "Taunus Nature Park (Saalburg)" }
+        { "coords": [50.2709, 8.5670], "title": "Taunus Nature Park (Saalburg)" },
+        { "coords": [50.2758, 8.5247], "title": "Hessenpark Open-Air Museum" },
+        { "coords": [49.4106, 8.7153], "title": "Heidelberg Castle" },
+        { "coords": [50.1175, 8.6517], "title": "Senckenberg Natural History Museum" },
+        { "coords": [50.1125, 8.6721], "title": "Main Tower" },
+        { "coords": [50.1232, 8.6585], "title": "Palmengarten" }
       ]
     }
   }
