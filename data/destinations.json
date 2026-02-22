@@ -24,7 +24,7 @@
     ],
     "extendedDetails": {
       "gettingAround": {
-        "text": "Completely car-free. We will rely on the highly walkable downtown, the yellow public bus system (*Strætó*) for town-to-town travel, and comfortable, scheduled tourist coaches for reaching the major natural landmarks and trailheads.",
+        "text": "Completely car-free. We will rely on the highly walkable downtown, the yellow public bus system (*Str\u00e6t\u00f3*) for town-to-town travel, and comfortable, scheduled tourist coaches for reaching the major natural landmarks and trailheads.",
         "note": "There are absolutely no public trains in Iceland!"
       },
       "primaryDestination": {
@@ -32,7 +32,7 @@
         "items": [
           {
             "title": "City Walking & Culture",
-            "description": "Wander around Tjörnin (the central city pond). The city has a phenomenal baking culture, so grab fresh sourdough or massive cinnamon rolls (snúður) while exploring local record shops and acoustic music venues."
+            "description": "Wander around Tj\u00f6rnin (the central city pond). The city has a phenomenal baking culture, so grab fresh sourdough or massive cinnamon rolls (sn\u00fa\u00f0ur) while exploring local record shops and acoustic music venues."
           },
           {
             "title": "Public Pools",
@@ -40,7 +40,7 @@
           },
           {
             "title": "The Obscure Explorer Sites",
-            "description": "Visit the Gossip Ledge (Kjaftasker) at the corner of Skólavörðustígur and Bergstaðastræti—the historic, physical communication network of the city before modern pools existed. Then, view the excavated Viking-age ruins beneath Aðalstræti 10, the city's oldest timber house."
+            "description": "Visit the Gossip Ledge (Kjaftasker) at the corner of Sk\u00f3lav\u00f6r\u00f0ust\u00edgur and Bergsta\u00f0astr\u00e6ti\u2014the historic, physical communication network of the city before modern pools existed. Then, view the excavated Viking-age ruins beneath A\u00f0alstr\u00e6ti 10, the city's oldest timber house."
           }
         ]
       },
@@ -53,7 +53,7 @@
             "description": "Massive, commercialized geothermal spas offering a luxurious soaking experience (requires booking well in advance)."
           },
           {
-            "title": "Hallgrímskirkja",
+            "title": "Hallgr\u00edmskirkja",
             "image": "images/reykjavik_attraction_church.jpg",
             "description": "The iconic, towering concrete church. Tourists flock here for panoramic views of the city."
           },
@@ -67,14 +67,14 @@
         "title": "Local Food & Dining",
         "items": [
           {
-            "title": "Grocery Stores (Bónus and Krónan)",
+            "title": "Grocery Stores (B\u00f3nus and Kr\u00f3nan)",
             "image": "images/reykjavik_food_rugbraud.jpg",
-            "description": "Stock up on **Skyr** (dense, protein-rich cultured dairy), **Harðfiskur** (dried fish jerky), fresh greenhouse-grown tomatoes/cucumbers, and **Rúgbrauð** (dense geothermal rye bread)."
+            "description": "Stock up on **Skyr** (dense, protein-rich cultured dairy), **Har\u00f0fiskur** (dried fish jerky), fresh greenhouse-grown tomatoes/cucumbers, and **R\u00fagbrau\u00f0** (dense geothermal rye bread)."
           },
           {
             "title": "Casual & Street Food",
             "image": "images/reykjavik_food.jpg",
-            "description": "The **Icelandic Hot Dog** (*pylsa*) made of free-range lamb with all the toppings. **Kjötsúpa** (traditional lamb and root vegetable meat soup) is perfect after a hike."
+            "description": "The **Icelandic Hot Dog** (*pylsa*) made of free-range lamb with all the toppings. **Kj\u00f6ts\u00fapa** (traditional lamb and root vegetable meat soup) is perfect after a hike."
           },
           {
             "title": "Restaurants",
@@ -85,16 +85,46 @@
       "itinerary": {
         "title": "10-Day Itinerary",
         "items": [
-          { "day": "Day 1", "activity": "Afternoon non-stop flight out of PDX." },
-          { "day": "Day 2", "activity": "Arrive at KEF. Board the Flybus into the city. Walk around Tjörnin and grab hot dogs at Bæjarins Beztu Pylsur." },
-          { "day": "Day 3", "activity": "Fresh sourdough and pastries. Explore Harpa Concert Hall's interactive acoustic room. Afternoon Strætó bus to Laugardalslaug pool." },
-          { "day": "Day 4", "activity": "Scheduled Golden Circle Coach (Thingvellir, Geysir, Gullfoss). Hearty Kjötsúpa for dinner." },
-          { "day": "Day 5", "activity": "Grocery run for Skyr and Rúgbrauð. Walk up Hallgrímskirkja and browse local record shops. Cook dinner together." },
-          { "day": "Day 6", "activity": "Scheduled South Coast Coach (Seljalandsfoss, Skógafoss, Reynisfjara black sand beach)." },
-          { "day": "Day 7", "activity": "Route 51 bus to Hveragerði. Moderate hike to the Reykjadalur thermal river to wade and relax." },
-          { "day": "Day 8", "activity": "Whales of Iceland exhibition in the Grandi harbor district. Ice cream and coastal walking." },
-          { "day": "Day 9", "activity": "Bus to Perlan to see the indoor ice cave. Souvenir shopping and a celebratory final dinner." },
-          { "day": "Day 10", "activity": "Flybus back to KEF. Non-stop flight home to Portland." }
+          {
+            "day": "Day 1",
+            "activity": "Afternoon non-stop flight out of PDX."
+          },
+          {
+            "day": "Day 2",
+            "activity": "Arrive at KEF. Board the Flybus into the city. Walk around Tj\u00f6rnin and grab hot dogs at B\u00e6jarins Beztu Pylsur."
+          },
+          {
+            "day": "Day 3",
+            "activity": "Fresh sourdough and pastries. Explore Harpa Concert Hall's interactive acoustic room. Afternoon Str\u00e6t\u00f3 bus to Laugardalslaug pool."
+          },
+          {
+            "day": "Day 4",
+            "activity": "Scheduled Golden Circle Coach (Thingvellir, Geysir, Gullfoss). Hearty Kj\u00f6ts\u00fapa for dinner."
+          },
+          {
+            "day": "Day 5",
+            "activity": "Grocery run for Skyr and R\u00fagbrau\u00f0. Walk up Hallgr\u00edmskirkja and browse local record shops. Cook dinner together."
+          },
+          {
+            "day": "Day 6",
+            "activity": "Scheduled South Coast Coach (Seljalandsfoss, Sk\u00f3gafoss, Reynisfjara black sand beach)."
+          },
+          {
+            "day": "Day 7",
+            "activity": "Route 51 bus to Hverager\u00f0i. Moderate hike to the Reykjadalur thermal river to wade and relax."
+          },
+          {
+            "day": "Day 8",
+            "activity": "Whales of Iceland exhibition in the Grandi harbor district. Ice cream and coastal walking."
+          },
+          {
+            "day": "Day 9",
+            "activity": "Bus to Perlan to see the indoor ice cave. Souvenir shopping and a celebratory final dinner."
+          },
+          {
+            "day": "Day 10",
+            "activity": "Flybus back to KEF. Non-stop flight home to Portland."
+          }
         ]
       }
     },
@@ -103,51 +133,160 @@
         {
           "title": "Natural History & The Land",
           "items": [
-            { "title": "Geology & Topography", "description": "Iceland sits directly on the Mid-Atlantic Ridge where the North American and Eurasian tectonic plates are actively tearing apart. The island exists above water due to a massive mantle plume." },
-            { "title": "Paleoecology", "description": "Because it is an isolated volcanic island, native biology is sparse. Before human arrival, the Arctic Fox was the only native land mammal, having crossed over on frozen sea ice." },
-            { "title": "The Ecological Shift", "description": "The island was originally covered in hardy birch forests. The arrival of humans and their grazing sheep led to rapid deforestation and topsoil erosion, creating the barren, dramatic tundra seen today." }
+            {
+              "title": "Geology & Topography",
+              "description": "Iceland sits directly on the Mid-Atlantic Ridge where the North American and Eurasian tectonic plates are actively tearing apart. The island exists above water due to a massive mantle plume."
+            },
+            {
+              "title": "Paleoecology",
+              "description": "Because it is an isolated volcanic island, native biology is sparse. Before human arrival, the Arctic Fox was the only native land mammal, having crossed over on frozen sea ice."
+            },
+            {
+              "title": "The Ecological Shift",
+              "description": "The island was originally covered in hardy birch forests. The arrival of humans and their grazing sheep led to rapid deforestation and topsoil erosion, creating the barren, dramatic tundra seen today."
+            }
+          ]
+        },
+        {
+          "title": "Flora, Fauna & Bug Science",
+          "items": [
+            {
+              "title": "The Solitary Mosquito (Reykjavik)",
+              "description": "Head to the Icelandic Institute of Natural History. The most famous bug in the country is the only mosquito ever found alive in Iceland. It was captured in the 1980s and is now permanently preserved in a jar of alcohol on display."
+            },
+            {
+              "title": "Lake M\u00fdvatn (Day Trip/North Iceland)",
+              "description": "If you venture north, this translates literally to \"Midge Lake.\" In the summer, harmless but incredibly dense swarms of midges emerge from the water in massive, twisting columns, creating a bizarre ecological phenomenon that sustains the local waterfowl."
+            }
           ]
         },
         {
           "title": "The Human Timeline",
           "items": [
-            { "title": "Pre-Industrial", "description": "Settled around 874 AD, Reykjavik (\"Smoky Bay\") was a scattered collection of farms. The early economy relied heavily on exporting sulfur—mined from the volcanic earth—to Europe for use in early gunpowder." },
-            { "title": "The Industrial Era", "description": "The city's industrial birth happened in the mid-18th century when local magistrate Skúli Magnússon bypassed a strict Danish trade monopoly to establish the Innréttingar—a series of wool-weaving workshops." },
-            { "title": "Modern History", "description": "In 1940, British and American forces occupied the neutral island, rapidly engineering modern infrastructure, including the downtown domestic airport. Post-war, the city transitioned almost entirely to renewable geothermal energy for municipal heating." }
+            {
+              "title": "Pre-Industrial",
+              "description": "Settled around 874 AD, Reykjavik (\"Smoky Bay\") was a scattered collection of farms. The early economy relied heavily on exporting sulfur\u2014mined from the volcanic earth\u2014to Europe for use in early gunpowder."
+            },
+            {
+              "title": "The Industrial Era",
+              "description": "The city's industrial birth happened in the mid-18th century when local magistrate Sk\u00fali Magn\u00fasson bypassed a strict Danish trade monopoly to establish the Innr\u00e9ttingar\u2014a series of wool-weaving workshops."
+            },
+            {
+              "title": "Modern History",
+              "description": "In 1940, British and American forces occupied the neutral island, rapidly engineering modern infrastructure, including the downtown domestic airport. Post-war, the city transitioned almost entirely to renewable geothermal energy for municipal heating."
+            }
           ]
         },
         {
           "title": "Notable Historical Figures",
           "items": [
-            { "title": "Ingólfur Arnarson (9th Century)", "description": "The legendary first permanent Norse settler who officially founded and named Reykjavik." },
-            { "title": "Jón Sigurðsson (1811–1879)", "description": "The leader of the 19th-century independence movement; his birthday is Iceland's National Day." },
-            { "title": "Halldór Laxness (1902–1998)", "description": "Iceland’s only Nobel Prize winner (Literature, 1955), who captured the fierce reality of Icelandic life." },
-            { "title": "Vigdís Finnbogadóttir (b. 1930)", "description": "In 1980, she became the first woman in the world to be democratically elected as a constitutional head of state." },
-            { "title": "Björk Guðmundsdóttir (b. 1965)", "description": "The undisputed pioneer of modern Icelandic music, blending ancient acoustic traditions with electronic engineering." }
+            {
+              "title": "Ing\u00f3lfur Arnarson (9th Century)",
+              "description": "The legendary first permanent Norse settler who officially founded and named Reykjavik."
+            },
+            {
+              "title": "J\u00f3n Sigur\u00f0sson (1811\u20131879)",
+              "description": "The leader of the 19th-century independence movement; his birthday is Iceland's National Day."
+            },
+            {
+              "title": "Halld\u00f3r Laxness (1902\u20131998)",
+              "description": "Iceland\u2019s only Nobel Prize winner (Literature, 1955), who captured the fierce reality of Icelandic life."
+            },
+            {
+              "title": "Vigd\u00eds Finnbogad\u00f3ttir (b. 1930)",
+              "description": "In 1980, she became the first woman in the world to be democratically elected as a constitutional head of state."
+            },
+            {
+              "title": "Bj\u00f6rk Gu\u00f0mundsd\u00f3ttir (b. 1965)",
+              "description": "The undisputed pioneer of modern Icelandic music, blending ancient acoustic traditions with electronic engineering."
+            }
           ]
         },
         {
           "title": "The Obscure Explorer Sites",
           "items": [
-            { "title": "The Gossip Ledge (Kjaftasker)", "description": "Located at the corner of Skólavörðustígur and Bergstaðastræti. Long before the city built modern geothermal pools, this street corner was the acoustic and social hub of the city, acting as the original, physical communication network of Reykjavik." },
-            { "title": "Aðalstræti 10", "description": "The oldest timber house in the city. Recent excavations beneath it revealed an intricate physical puzzle of ruins dating back to the very first Viking settlements." }
+            {
+              "title": "The Gossip Ledge (Kjaftasker)",
+              "description": "Located at the corner of Sk\u00f3lav\u00f6r\u00f0ust\u00edgur and Bergsta\u00f0astr\u00e6ti. Long before the city built modern geothermal pools, this street corner was the acoustic and social hub of the city, acting as the original, physical communication network of Reykjavik."
+            },
+            {
+              "title": "A\u00f0alstr\u00e6ti 10",
+              "description": "The oldest timber house in the city. Recent excavations beneath it revealed an intricate physical puzzle of ruins dating back to the very first Viking settlements."
+            }
           ]
         }
       ]
     },
     "map": {
-      "center": [64.1466, -21.9426],
+      "center": [
+        64.1466,
+        -21.9426
+      ],
       "zoom": 8,
       "markers": [
-        { "coords": [64.1466, -21.9426], "title": "Reykjavik City Center" },
-        { "coords": [64.2556, -21.1296], "title": "Thingvellir National Park (Golden Circle)" },
-        { "coords": [64.0226, -21.2116], "title": "Reykjadalur Hot Spring River" },
-        { "coords": [63.8804, -22.4495], "title": "Blue Lagoon" },
-        { "coords": [64.1417, -21.9266], "title": "Hallgrímskirkja" },
-        { "coords": [64.1292, -21.9185], "title": "Perlan" },
-        { "coords": [64.3271, -20.1199], "title": "Gullfoss" },
-        { "coords": [63.6156, -19.9885], "title": "Seljalandsfoss" },
-        { "coords": [63.4036, -19.0470], "title": "Reynisfjara (Black Sand Beach)" }
+        {
+          "coords": [
+            64.1466,
+            -21.9426
+          ],
+          "title": "Reykjavik City Center"
+        },
+        {
+          "coords": [
+            64.2556,
+            -21.1296
+          ],
+          "title": "Thingvellir National Park (Golden Circle)"
+        },
+        {
+          "coords": [
+            64.0226,
+            -21.2116
+          ],
+          "title": "Reykjadalur Hot Spring River"
+        },
+        {
+          "coords": [
+            63.8804,
+            -22.4495
+          ],
+          "title": "Blue Lagoon"
+        },
+        {
+          "coords": [
+            64.1417,
+            -21.9266
+          ],
+          "title": "Hallgr\u00edmskirkja"
+        },
+        {
+          "coords": [
+            64.1292,
+            -21.9185
+          ],
+          "title": "Perlan"
+        },
+        {
+          "coords": [
+            64.3271,
+            -20.1199
+          ],
+          "title": "Gullfoss"
+        },
+        {
+          "coords": [
+            63.6156,
+            -19.9885
+          ],
+          "title": "Seljalandsfoss"
+        },
+        {
+          "coords": [
+            63.4036,
+            -19.047
+          ],
+          "title": "Reynisfjara (Black Sand Beach)"
+        }
       ]
     }
   },
@@ -159,7 +298,7 @@
     "flightTime": "9 hr 35 min",
     "route": "PDX -> AMS",
     "bannerImage": "images/amsterdam_banner.jpg",
-    "description": "The city is structured around concentric rings of canals. It’s highly picturesque and visually stunning, but walkers do need to stay alert and stay out of the dedicated bicycle lanes!",
+    "description": "The city is structured around concentric rings of canals. It\u2019s highly picturesque and visually stunning, but walkers do need to stay alert and stay out of the dedicated bicycle lanes!",
     "dayTripIntro": "The Dutch rail system is phenomenal. You simply tap in at Amsterdam Centraal station and can be in an entirely different landscape in under an hour. These options skip the massive crowds and focus on hands-on exploration, sprawling gardens, and historic food culture.",
     "dayTrips": [
       {
@@ -168,7 +307,7 @@
       },
       {
         "title": "Amersfoort (Medieval Gates & Cobblestones)",
-        "description": "About 45 minutes by train. The historic center feels like stepping into a sprawling adventure game. The city is completely encircled by its original medieval walls, and exploring the Koppelpoort—a massive 15th-century combined land and water gate—offers a fantastic labyrinth of cobblestones, bridges, and defensive towers to walk through."
+        "description": "About 45 minutes by train. The historic center feels like stepping into a sprawling adventure game. The city is completely encircled by its original medieval walls, and exploring the Koppelpoort\u2014a massive 15th-century combined land and water gate\u2014offers a fantastic labyrinth of cobblestones, bridges, and defensive towers to walk through."
       },
       {
         "title": "Haarlem & Zuid-Kennemerland National Park",
@@ -189,7 +328,7 @@
       },
       {
         "title": "Utrecht (Museum Speelklok & Sunken Canals)",
-        "description": "About 25 minutes by train. Utrecht is defined by its unique bi-level canals, where you can walk down at the water's edge right past historic cellar doors. The star is Museum Speelklok—a highly interactive museum dedicated entirely to self-playing musical instruments. It's fascinating for anyone who appreciates acoustics or plays string and traditional instruments, featuring everything from intricate tiny music boxes to massive, booming street organs."
+        "description": "About 25 minutes by train. Utrecht is defined by its unique bi-level canals, where you can walk down at the water's edge right past historic cellar doors. The star is Museum Speelklok\u2014a highly interactive museum dedicated entirely to self-playing musical instruments. It's fascinating for anyone who appreciates acoustics or plays string and traditional instruments, featuring everything from intricate tiny music boxes to massive, booming street organs."
       },
       {
         "title": "Zandvoort aan Zee (The Coastal Escape)",
@@ -209,7 +348,7 @@
           },
           {
             "title": "Tram Cruising",
-            "description": "Taking the tram is an activity in itself. It’s a fantastic way to rest tired legs while still getting a ground-level view of the historic architecture passing by."
+            "description": "Taking the tram is an activity in itself. It\u2019s a fantastic way to rest tired legs while still getting a ground-level view of the historic architecture passing by."
           },
           {
             "title": "Canal Boats",
@@ -263,16 +402,46 @@
       "itinerary": {
         "title": "10-Day Itinerary",
         "items": [
-          { "day": "Day 1", "activity": "Departure: Afternoon non-stop flight out of PDX." },
-          { "day": "Day 2", "activity": "Arrival & The Jordaan: Arrive at AMS. The airport has a train station directly underneath it—hop on a train to Amsterdam Centraal (about 15 minutes). Check in and stretch your legs with an easy walk through the picturesque Jordaan district. Keep it relaxed with a casual dinner of sweet or savory *Pannenkoeken*." },
-          { "day": "Day 3", "activity": "Puzzles & Parks: Take the tram to the NEMO Science Museum, packed with hands-on, interactive logic puzzles and physics experiments. Head to Vondelpark in the afternoon for massive, car-free walking paths." },
-          { "day": "Day 4", "activity": "Musical Instruments in Utrecht: Take a quick 25-minute intercity train south to Utrecht. Walk from the station to Museum Speelklok to see fascinating self-playing musical instruments. Have dinner along Utrecht's unique sunken canals before heading back." },
-          { "day": "Day 5", "activity": "Markets & Botanical Gardens: Visit the Albert Cuyp Market in De Pijp for fresh regional produce, local cheeses, and a warm Stroopwafel. Spend the afternoon at the Hortus Botanicus exploring the spectacular climate-controlled greenhouses." },
-          { "day": "Day 6", "activity": "Coastal Dunes at Zandvoort: Take the 30-minute direct train to Zandvoort aan Zee. Spend the day walking the wide, sandy beaches and the paved trails that weave through the protected coastal dunes." },
-          { "day": "Day 7", "activity": "Windmills & Baking History: Take a quick 20-minute train north to Zaanse Schans. Explore the reconstructed historic village, walk right up to functioning waterfront windmills, and watch live demonstrations of local cheese making and traditional Dutch baking." },
-          { "day": "Day 8", "activity": "Classic Art & Canal Cruising: If you booked time slots in advance, spend the morning at the Rijksmuseum or the Van Gogh Museum on Museumplein. Rest your feet in the afternoon by taking a guided, open-air electric boat tour through the historic canal rings." },
-          { "day": "Day 9", "activity": "Final Explorations: Have a slow morning revisiting a favorite bakery for pastries or grabbing a coffee along the canals. Spend the afternoon picking up last-minute souvenirs or wandering through a street market." },
-          { "day": "Day 10", "activity": "Return Home: Catch the short train from Amsterdam Centraal back to Schiphol Airport (AMS). Board your non-stop flight back to Portland." }
+          {
+            "day": "Day 1",
+            "activity": "Departure: Afternoon non-stop flight out of PDX."
+          },
+          {
+            "day": "Day 2",
+            "activity": "Arrival & The Jordaan: Arrive at AMS. The airport has a train station directly underneath it\u2014hop on a train to Amsterdam Centraal (about 15 minutes). Check in and stretch your legs with an easy walk through the picturesque Jordaan district. Keep it relaxed with a casual dinner of sweet or savory *Pannenkoeken*."
+          },
+          {
+            "day": "Day 3",
+            "activity": "Puzzles & Parks: Take the tram to the NEMO Science Museum, packed with hands-on, interactive logic puzzles and physics experiments. Head to Vondelpark in the afternoon for massive, car-free walking paths."
+          },
+          {
+            "day": "Day 4",
+            "activity": "Musical Instruments in Utrecht: Take a quick 25-minute intercity train south to Utrecht. Walk from the station to Museum Speelklok to see fascinating self-playing musical instruments. Have dinner along Utrecht's unique sunken canals before heading back."
+          },
+          {
+            "day": "Day 5",
+            "activity": "Markets & Botanical Gardens: Visit the Albert Cuyp Market in De Pijp for fresh regional produce, local cheeses, and a warm Stroopwafel. Spend the afternoon at the Hortus Botanicus exploring the spectacular climate-controlled greenhouses."
+          },
+          {
+            "day": "Day 6",
+            "activity": "Coastal Dunes at Zandvoort: Take the 30-minute direct train to Zandvoort aan Zee. Spend the day walking the wide, sandy beaches and the paved trails that weave through the protected coastal dunes."
+          },
+          {
+            "day": "Day 7",
+            "activity": "Windmills & Baking History: Take a quick 20-minute train north to Zaanse Schans. Explore the reconstructed historic village, walk right up to functioning waterfront windmills, and watch live demonstrations of local cheese making and traditional Dutch baking."
+          },
+          {
+            "day": "Day 8",
+            "activity": "Classic Art & Canal Cruising: If you booked time slots in advance, spend the morning at the Rijksmuseum or the Van Gogh Museum on Museumplein. Rest your feet in the afternoon by taking a guided, open-air electric boat tour through the historic canal rings."
+          },
+          {
+            "day": "Day 9",
+            "activity": "Final Explorations: Have a slow morning revisiting a favorite bakery for pastries or grabbing a coffee along the canals. Spend the afternoon picking up last-minute souvenirs or wandering through a street market."
+          },
+          {
+            "day": "Day 10",
+            "activity": "Return Home: Catch the short train from Amsterdam Centraal back to Schiphol Airport (AMS). Board your non-stop flight back to Portland."
+          }
         ]
       }
     },
@@ -281,48 +450,147 @@
         {
           "title": "Natural History & The Land",
           "items": [
-            { "title": "Geology & The Peat Bogs", "description": "Amsterdam sits in an unstable river delta. Beneath the city is Pleistocene sand, but the surface is a massive, spongy peat bog created by millennia of decaying wetland plant matter." },
-            { "title": "Hydrology & The Little Ice Age", "description": "The region was heavily impacted by the \"Little Ice Age\" (1300–1850). This climatic cooling famously caused the canals and rivers to freeze solid for months at a time." },
-            { "title": "Paleoecology", "description": "Before human drainage, this was a massive estuarine wetland teeming with migratory waterfowl, sturgeon, and beavers." }
+            {
+              "title": "Geology & The Peat Bogs",
+              "description": "Amsterdam sits in an unstable river delta. Beneath the city is Pleistocene sand, but the surface is a massive, spongy peat bog created by millennia of decaying wetland plant matter."
+            },
+            {
+              "title": "Hydrology & The Little Ice Age",
+              "description": "The region was heavily impacted by the \"Little Ice Age\" (1300\u20131850). This climatic cooling famously caused the canals and rivers to freeze solid for months at a time."
+            },
+            {
+              "title": "Paleoecology",
+              "description": "Before human drainage, this was a massive estuarine wetland teeming with migratory waterfowl, sturgeon, and beavers."
+            }
+          ]
+        },
+        {
+          "title": "Flora, Fauna & Bug Science",
+          "items": [
+            {
+              "title": "Micropia (Amsterdam)",
+              "description": "Located next to the ARTIS zoo, this is the world\u2019s first museum dedicated entirely to microbes, microscopic invertebrates, and fungi.  It is a highly visual, glowing space packed with interactive microscopes that feels like stepping into a futuristic laboratory."
+            },
+            {
+              "title": "ARTIS Royal Zoo Insectarium & Butterfly Pavilion (Amsterdam)",
+              "description": "ARTIS houses one of the largest insect collections in the world. The massive, 1,000-square-meter Butterfly Pavilion is the largest in the Netherlands, allowing you to walk freely among thousands of tropical species like the iridescent Blue Morpho."
+            },
+            {
+              "title": "Hortus Botanicus Butterfly House (Amsterdam)",
+              "description": "A smaller, highly educational greenhouse inside the botanical garden. The staff collects eggs and caterpillars daily for a protective nursery, and you can watch the butterflies emerge from a special chrysalis cabinet."
+            },
+            {
+              "title": "Naturalis Biodiversity Center (Day Trip to Leiden)",
+              "description": "A 35-minute train ride takes you to the Dutch national natural history museum. It is a world-class research facility housing over 15 million insect specimens, featuring rare historical collections and active preparation labs you can observe."
+            }
           ]
         },
         {
           "title": "The Human Timeline",
           "items": [
-            { "title": "Pre-Industrial", "description": "The city grew from a small fishing village into a massive trading port. Because the ground was unstable, the entire historic city was engineered on millions of wooden poles driven deep into the sand layer." },
-            { "title": "The Industrial Era", "description": "The city's 19th-century revival was driven by the North Sea Canal (completed 1876), severing the city's natural layout to force a direct shipping route to the ocean." },
-            { "title": "Modern History", "description": "In the 1960s, the \"Provo\" counter-cultural movement successfully fought plans to pave over the historic canals for highways, engineering the bicycle-first infrastructure seen today. In 1989, researcher Guido van Rossum invented the Python programming language here." }
+            {
+              "title": "Pre-Industrial",
+              "description": "The city grew from a small fishing village into a massive trading port. Because the ground was unstable, the entire historic city was engineered on millions of wooden poles driven deep into the sand layer."
+            },
+            {
+              "title": "The Industrial Era",
+              "description": "The city's 19th-century revival was driven by the North Sea Canal (completed 1876), severing the city's natural layout to force a direct shipping route to the ocean."
+            },
+            {
+              "title": "Modern History",
+              "description": "In the 1960s, the \"Provo\" counter-cultural movement successfully fought plans to pave over the historic canals for highways, engineering the bicycle-first infrastructure seen today. In 1989, researcher Guido van Rossum invented the Python programming language here."
+            }
           ]
         },
         {
           "title": "Notable Historical Figures",
           "items": [
-            { "title": "Rembrandt van Rijn (1606–1669)", "description": "The titan of the Dutch Golden Age, revolutionizing painting through his mastery of light and shadow." },
-            { "title": "Baruch Spinoza (1632–1677)", "description": "An Enlightenment philosopher whose radical ideas on reason laid the groundwork for modern democratic thought." },
-            { "title": "Aletta Jacobs (1854–1929)", "description": "The first female physician in the Netherlands and an international leader in the women's suffrage movement." },
-            { "title": "Anne Frank (1929–1945)", "description": "Her diary remains one of the most profound, widely read human documents of the Holocaust." },
-            { "title": "Guido van Rossum (b. 1956)", "description": "The computer scientist who invented the Python programming language at Amsterdam's CWI." }
+            {
+              "title": "Rembrandt van Rijn (1606\u20131669)",
+              "description": "The titan of the Dutch Golden Age, revolutionizing painting through his mastery of light and shadow."
+            },
+            {
+              "title": "Baruch Spinoza (1632\u20131677)",
+              "description": "An Enlightenment philosopher whose radical ideas on reason laid the groundwork for modern democratic thought."
+            },
+            {
+              "title": "Aletta Jacobs (1854\u20131929)",
+              "description": "The first female physician in the Netherlands and an international leader in the women's suffrage movement."
+            },
+            {
+              "title": "Anne Frank (1929\u20131945)",
+              "description": "Her diary remains one of the most profound, widely read human documents of the Holocaust."
+            },
+            {
+              "title": "Guido van Rossum (b. 1956)",
+              "description": "The computer scientist who invented the Python programming language at Amsterdam's CWI."
+            }
           ]
         },
         {
           "title": "The Obscure Explorer Sites",
           "items": [
-            { "title": "The Nieuwe Brug (New Bridge)", "description": "In the early 1600s, the Dutch East India Company issued the world's first shares of stock right on this wooden bridge. It is a monument to the earliest financial algorithms, completely hidden in plain sight." },
-            { "title": "The Torensluis Bridge", "description": "Built in 1648, this unusually wide bridge hides perfectly preserved 17th-century dungeon cells with barred windows sitting just inches above the canal waterline within its massive stone foundations." }
+            {
+              "title": "The Nieuwe Brug (New Bridge)",
+              "description": "In the early 1600s, the Dutch East India Company issued the world's first shares of stock right on this wooden bridge. It is a monument to the earliest financial algorithms, completely hidden in plain sight."
+            },
+            {
+              "title": "The Torensluis Bridge",
+              "description": "Built in 1648, this unusually wide bridge hides perfectly preserved 17th-century dungeon cells with barred windows sitting just inches above the canal waterline within its massive stone foundations."
+            }
           ]
         }
       ]
     },
     "map": {
-      "center": [52.3676, 4.9041],
+      "center": [
+        52.3676,
+        4.9041
+      ],
       "zoom": 10,
       "markers": [
-        { "coords": [52.3580, 4.8686], "title": "Amsterdam City Center (Vondelpark)" },
-        { "coords": [52.3758, 4.5314], "title": "Zandvoort aan Zee" },
-        { "coords": [52.4739, 4.8164], "title": "Zaanse Schans" },
-        { "coords": [52.0903, 5.1189], "title": "Utrecht (Museum Speelklok)" },
-        { "coords": [52.3752, 4.8840], "title": "Anne Frank House" },
-        { "coords": [52.3600, 4.8852], "title": "Rijksmuseum & Van Gogh Museum" }
+        {
+          "coords": [
+            52.358,
+            4.8686
+          ],
+          "title": "Amsterdam City Center (Vondelpark)"
+        },
+        {
+          "coords": [
+            52.3758,
+            4.5314
+          ],
+          "title": "Zandvoort aan Zee"
+        },
+        {
+          "coords": [
+            52.4739,
+            4.8164
+          ],
+          "title": "Zaanse Schans"
+        },
+        {
+          "coords": [
+            52.0903,
+            5.1189
+          ],
+          "title": "Utrecht (Museum Speelklok)"
+        },
+        {
+          "coords": [
+            52.3752,
+            4.884
+          ],
+          "title": "Anne Frank House"
+        },
+        {
+          "coords": [
+            52.36,
+            4.8852
+          ],
+          "title": "Rijksmuseum & Van Gogh Museum"
+        }
       ]
     }
   },
@@ -347,7 +615,7 @@
       },
       {
         "title": "Eltville am Rhein (Wine, Roses & Printing Presses)",
-        "description": "About 50 minutes by train. Known as the City of Wine and Roses, this is a much quieter, highly walkable alternative to the busy Rhine towns. You can stroll the flat, scenic river promenade and visit the Electoral Castle (Kurfürstliche Burg), which features massive rose gardens and a historical exhibit dedicated to Johannes Gutenberg's early printing presses."
+        "description": "About 50 minutes by train. Known as the City of Wine and Roses, this is a much quieter, highly walkable alternative to the busy Rhine towns. You can stroll the flat, scenic river promenade and visit the Electoral Castle (Kurf\u00fcrstliche Burg), which features massive rose gardens and a historical exhibit dedicated to Johannes Gutenberg's early printing presses."
       },
       {
         "title": "Kronberg im Taunus (Castle Ruins & Forest Walks)",
@@ -355,7 +623,7 @@
       },
       {
         "title": "Michelstadt (Deep Forest History)",
-        "description": "About 1 hour and 15 minutes by train. Located deep in the lush Odenwald forest, Michelstadt features one of the most unique, photographed medieval town halls in the country—built entirely on massive wooden stilts. The twisting, car-free alleys are perfect for exploring, with easy access to the surrounding nature park trails."
+        "description": "About 1 hour and 15 minutes by train. Located deep in the lush Odenwald forest, Michelstadt features one of the most unique, photographed medieval town halls in the country\u2014built entirely on massive wooden stilts. The twisting, car-free alleys are perfect for exploring, with easy access to the surrounding nature park trails."
       }
     ],
     "extendedDetails": {
@@ -368,7 +636,7 @@
           {
             "title": "City Walking & Green Spaces",
             "image": "images/frankfurt_attraction_romerberg.jpg",
-            "description": "A perfect walk starts at the Römerberg (the historic old town square) and crosses the Eiserner Steg (Iron Footbridge). This puts you right on the Main River promenade—a wide, flat, tree-lined path perfect for a scenic stroll. For a break from the city, the Palmengarten is a spectacular 50-acre botanical garden right in town."
+            "description": "A perfect walk starts at the R\u00f6merberg (the historic old town square) and crosses the Eiserner Steg (Iron Footbridge). This puts you right on the Main River promenade\u2014a wide, flat, tree-lined path perfect for a scenic stroll. For a break from the city, the Palmengarten is a spectacular 50-acre botanical garden right in town."
           },
           {
             "title": "The Kleinmarkthalle",
@@ -407,7 +675,7 @@
           {
             "title": "Traditional Dishes",
             "image": "images/frankfurt_food.jpg",
-            "description": "Frankfurt is famous for *Grüne Soße* (Green Sauce), a cold, creamy sauce made from seven fresh regional herbs, typically served over hard-boiled eggs and boiled potatoes. It is light, fresh, and universally loved."
+            "description": "Frankfurt is famous for *Gr\u00fcne So\u00dfe* (Green Sauce), a cold, creamy sauce made from seven fresh regional herbs, typically served over hard-boiled eggs and boiled potatoes. It is light, fresh, and universally loved."
           },
           {
             "title": "Street Food",
@@ -416,23 +684,53 @@
           {
             "title": "Beverages",
             "image": "images/frankfurt_food_apfelwein.jpg",
-            "description": "The regional specialty is *Apfelwein* (a tart apple cider). It's typically served in traditional diamond-patterned glasses. A sweeter, highly popular version is *Süßgespritzter* (mixed with sweet lemonade), and local, unfiltered apple juice (*Naturtrüber Apfelsaft*) is widely available."
+            "description": "The regional specialty is *Apfelwein* (a tart apple cider). It's typically served in traditional diamond-patterned glasses. A sweeter, highly popular version is *S\u00fc\u00dfgespritzter* (mixed with sweet lemonade), and local, unfiltered apple juice (*Naturtr\u00fcber Apfelsaft*) is widely available."
           }
         ]
       },
       "itinerary": {
         "title": "10-Day Itinerary",
         "items": [
-          { "day": "Day 1", "activity": "Departure: Afternoon non-stop flight out of PDX." },
-          { "day": "Day 2", "activity": "Arrival & River Walks: Arrive at FRA. Take the S-Bahn directly from the airport into the city center (about 15 minutes). Check in, then stretch your legs by walking across the Eiserner Steg footbridge and strolling down the Main River promenade. Grab a casual dinner of pretzels and bratwurst." },
-          { "day": "Day 3", "activity": "Old Town & Markets: Walk the cobblestones of the Römerberg. Head to the Kleinmarkthalle to browse the fresh produce and pick up traditional baked goods for lunch. Spend the afternoon exploring the lush grounds of the Palmengarten." },
-          { "day": "Day 4", "activity": "The Rhine Valley: Take a regional train west to the Rhine River. Hop on a riverboat cruise to view the hillside castles, then take an easy hike up the valley trails to explore one of the ruins up close." },
-          { "day": "Day 5", "activity": "Dinosaurs & Acoustic Evenings: Spend the morning at the Senckenberg Natural History Museum walking among the massive dinosaur skeletons. In the evening, head across the river to the Sachsenhausen district for a traditional dinner, keeping an ear out for local acoustic or folk music at the taverns." },
-          { "day": "Day 6", "activity": "Roman Forts & Forest Trails: Take the train north to the Taunus Nature Park. Spend the day walking the shaded forest trails and exploring the ancient reconstructed Roman fort at Saalburg." },
-          { "day": "Day 7", "activity": "Timber Houses at Hessenpark: Take a short transit ride to the Hessenpark Open-Air Museum. Spend the day wandering through the reconstructed historic villages and watching the traditional baking and craftsmanship demonstrations." },
-          { "day": "Day 8", "activity": "Heidelberg Castle: Take a direct train south (about an hour) to the historic town of Heidelberg. Walk the beautiful pedestrian streets and take the funicular railway up the mountain to explore the massive, sprawling castle ruins." },
-          { "day": "Day 9", "activity": "Final Explorations: Have a slow morning grabbing coffee and an Apfelstrudel. Spend the afternoon picking up last-minute souvenirs along the Zeil pedestrian promenade or visiting the top of the Main Tower. Enjoy a celebratory final dinner featuring Schnitzel and Grüne Soße." },
-          { "day": "Day 10", "activity": "Return Home: Take the S-Bahn back to Frankfurt Airport (FRA). Board your non-stop flight back to Portland." }
+          {
+            "day": "Day 1",
+            "activity": "Departure: Afternoon non-stop flight out of PDX."
+          },
+          {
+            "day": "Day 2",
+            "activity": "Arrival & River Walks: Arrive at FRA. Take the S-Bahn directly from the airport into the city center (about 15 minutes). Check in, then stretch your legs by walking across the Eiserner Steg footbridge and strolling down the Main River promenade. Grab a casual dinner of pretzels and bratwurst."
+          },
+          {
+            "day": "Day 3",
+            "activity": "Old Town & Markets: Walk the cobblestones of the R\u00f6merberg. Head to the Kleinmarkthalle to browse the fresh produce and pick up traditional baked goods for lunch. Spend the afternoon exploring the lush grounds of the Palmengarten."
+          },
+          {
+            "day": "Day 4",
+            "activity": "The Rhine Valley: Take a regional train west to the Rhine River. Hop on a riverboat cruise to view the hillside castles, then take an easy hike up the valley trails to explore one of the ruins up close."
+          },
+          {
+            "day": "Day 5",
+            "activity": "Dinosaurs & Acoustic Evenings: Spend the morning at the Senckenberg Natural History Museum walking among the massive dinosaur skeletons. In the evening, head across the river to the Sachsenhausen district for a traditional dinner, keeping an ear out for local acoustic or folk music at the taverns."
+          },
+          {
+            "day": "Day 6",
+            "activity": "Roman Forts & Forest Trails: Take the train north to the Taunus Nature Park. Spend the day walking the shaded forest trails and exploring the ancient reconstructed Roman fort at Saalburg."
+          },
+          {
+            "day": "Day 7",
+            "activity": "Timber Houses at Hessenpark: Take a short transit ride to the Hessenpark Open-Air Museum. Spend the day wandering through the reconstructed historic villages and watching the traditional baking and craftsmanship demonstrations."
+          },
+          {
+            "day": "Day 8",
+            "activity": "Heidelberg Castle: Take a direct train south (about an hour) to the historic town of Heidelberg. Walk the beautiful pedestrian streets and take the funicular railway up the mountain to explore the massive, sprawling castle ruins."
+          },
+          {
+            "day": "Day 9",
+            "activity": "Final Explorations: Have a slow morning grabbing coffee and an Apfelstrudel. Spend the afternoon picking up last-minute souvenirs along the Zeil pedestrian promenade or visiting the top of the Main Tower. Enjoy a celebratory final dinner featuring Schnitzel and Gr\u00fcne So\u00dfe."
+          },
+          {
+            "day": "Day 10",
+            "activity": "Return Home: Take the S-Bahn back to Frankfurt Airport (FRA). Board your non-stop flight back to Portland."
+          }
         ]
       }
     },
@@ -441,49 +739,153 @@
         {
           "title": "Natural History & The Land",
           "items": [
-            { "title": "Geology & The Limestone Reef", "description": "The Main river was historically deep and fast, but at this location, a solid limestone reef sat just below the surface, creating a natural, shallow bottleneck for crossing that forced all trade through this exact spot." },
-            { "title": "Paleontology", "description": "The Messel Pit (a short train ride away) perfectly preserved a 47-million-year-old Eocene ecosystem, yielding fossils of early primate ancestors and ancient horses the size of dogs." }
+            {
+              "title": "Geology & The Limestone Reef",
+              "description": "The Main river was historically deep and fast, but at this location, a solid limestone reef sat just below the surface, creating a natural, shallow bottleneck for crossing that forced all trade through this exact spot."
+            },
+            {
+              "title": "Paleontology",
+              "description": "The Messel Pit (a short train ride away) perfectly preserved a 47-million-year-old Eocene ecosystem, yielding fossils of early primate ancestors and ancient horses the size of dogs."
+            }
+          ]
+        },
+        {
+          "title": "Flora, Fauna & Bug Science",
+          "items": [
+            {
+              "title": "The Palmengarten Flower and Butterfly House (Frankfurt)",
+              "description": "A state-of-the-art, immersive tropical environment inside the city's massive botanical garden. You can walk right among flying Zebra butterflies and explore an adjacent exhibition detailing the critical ecological mechanics of insect pollination."
+            },
+            {
+              "title": "Senckenberg Nature Museum & Maria Sibylla Merian (Frankfurt)",
+              "description": "Senckenberg is a massive research institute with fantastic public displays on insect ecology. It is also deeply tied to Frankfurt-born Maria Sibylla Merian (1647\u20131717), one of history's greatest entomologists. You can often see her foundational, 17th-century illustrations of caterpillar metamorphosis on display here or at the nearby St\u00e4del Museum."
+            },
+            {
+              "title": "The Messel Pit Fossil Insects (Day Trip to Messel)",
+              "description": "About an hour by train, this UNESCO World Heritage site is a holy grail for bug scientists. The 47-million-year-old oil shale perfectly preserved Eocene insects.  The preservation is so staggering that you can still see the shiny, iridescent structural colors on the wings of fossilized jewel beetles that died millions of years ago."
+            }
           ]
         },
         {
           "title": "The Human Timeline",
           "items": [
-            { "title": "Pre-Industrial", "description": "Because of the limestone ford, Romans established a capital here. In 1585, merchants agreed to fixed exchange rates to stop currency forging—the quiet birth of the Frankfurt Stock Exchange." },
-            { "title": "The Industrial Era", "description": "The Rothschild family established a banking empire from the city's Jewish ghetto. In 1891, the city hosted an exhibition that successfully transmitted high-voltage AC electricity over 100 miles, proving the viability of the modern global power grid." },
-            { "title": "Modern History", "description": "Beneath this financial center lies DE-CIX. Founded in 1995 in an old post office, it grew into the largest neutral internet exchange point on the planet, making Frankfurt a vital node in global digital routing." }
+            {
+              "title": "Pre-Industrial",
+              "description": "Because of the limestone ford, Romans established a capital here. In 1585, merchants agreed to fixed exchange rates to stop currency forging\u2014the quiet birth of the Frankfurt Stock Exchange."
+            },
+            {
+              "title": "The Industrial Era",
+              "description": "The Rothschild family established a banking empire from the city's Jewish ghetto. In 1891, the city hosted an exhibition that successfully transmitted high-voltage AC electricity over 100 miles, proving the viability of the modern global power grid."
+            },
+            {
+              "title": "Modern History",
+              "description": "Beneath this financial center lies DE-CIX. Founded in 1995 in an old post office, it grew into the largest neutral internet exchange point on the planet, making Frankfurt a vital node in global digital routing."
+            }
           ]
         },
         {
           "title": "Notable Historical Figures",
           "items": [
-            { "title": "Johann Wolfgang von Goethe (1749–1832)", "description": "Germany's most celebrated writer and statesman." },
-            { "title": "Mayer Amschel Rothschild (1744–1812)", "description": "The founder of the international Rothschild banking dynasty." },
-            { "title": "Otto Hahn (1879–1968)", "description": "A pioneering chemist who won the Nobel Prize for the discovery of nuclear fission." },
-            { "title": "Maria Sibylla Merian (1647–1717)", "description": "A pioneering naturalist and scientific illustrator who meticulously documented insect metamorphosis." },
-            { "title": "Paul Ehrlich (1854–1915)", "description": "The founder of modern chemotherapy and immunology." }
+            {
+              "title": "Johann Wolfgang von Goethe (1749\u20131832)",
+              "description": "Germany's most celebrated writer and statesman."
+            },
+            {
+              "title": "Mayer Amschel Rothschild (1744\u20131812)",
+              "description": "The founder of the international Rothschild banking dynasty."
+            },
+            {
+              "title": "Otto Hahn (1879\u20131968)",
+              "description": "A pioneering chemist who won the Nobel Prize for the discovery of nuclear fission."
+            },
+            {
+              "title": "Maria Sibylla Merian (1647\u20131717)",
+              "description": "A pioneering naturalist and scientific illustrator who meticulously documented insect metamorphosis."
+            },
+            {
+              "title": "Paul Ehrlich (1854\u20131915)",
+              "description": "The founder of modern chemotherapy and immunology."
+            }
           ]
         },
         {
           "title": "The Obscure Explorer Sites",
           "items": [
-            { "title": "The Kaiserpfalz Franconofurd", "description": "Hidden beneath the modern Stadthaus building is an underground archaeological puzzle where you can walk down into the excavated ruins of an ancient Roman bathhouse and a 9th-century royal palace." },
-            { "title": "The Gutenberg Monument (Roßmarkt)", "description": "While Mainz is the birthplace of the printing press, Frankfurt was the epicenter of the early book trade. Standing here means standing at ground zero for the earliest mechanical days of mass information distribution." }
+            {
+              "title": "The Kaiserpfalz Franconofurd",
+              "description": "Hidden beneath the modern Stadthaus building is an underground archaeological puzzle where you can walk down into the excavated ruins of an ancient Roman bathhouse and a 9th-century royal palace."
+            },
+            {
+              "title": "The Gutenberg Monument (Ro\u00dfmarkt)",
+              "description": "While Mainz is the birthplace of the printing press, Frankfurt was the epicenter of the early book trade. Standing here means standing at ground zero for the earliest mechanical days of mass information distribution."
+            }
           ]
         }
       ]
     },
     "map": {
-      "center": [50.1109, 8.6821],
+      "center": [
+        50.1109,
+        8.6821
+      ],
       "zoom": 9,
       "markers": [
-        { "coords": [50.1104, 8.6821], "title": "Frankfurt (Römerberg)" },
-        { "coords": [49.9760, 7.9130], "title": "The Rhine Valley (Bingen / Rüdesheim)" },
-        { "coords": [50.2709, 8.5670], "title": "Taunus Nature Park (Saalburg)" },
-        { "coords": [50.2758, 8.5247], "title": "Hessenpark Open-Air Museum" },
-        { "coords": [49.4106, 8.7153], "title": "Heidelberg Castle" },
-        { "coords": [50.1175, 8.6517], "title": "Senckenberg Natural History Museum" },
-        { "coords": [50.1125, 8.6721], "title": "Main Tower" },
-        { "coords": [50.1232, 8.6585], "title": "Palmengarten" }
+        {
+          "coords": [
+            50.1104,
+            8.6821
+          ],
+          "title": "Frankfurt (R\u00f6merberg)"
+        },
+        {
+          "coords": [
+            49.976,
+            7.913
+          ],
+          "title": "The Rhine Valley (Bingen / R\u00fcdesheim)"
+        },
+        {
+          "coords": [
+            50.2709,
+            8.567
+          ],
+          "title": "Taunus Nature Park (Saalburg)"
+        },
+        {
+          "coords": [
+            50.2758,
+            8.5247
+          ],
+          "title": "Hessenpark Open-Air Museum"
+        },
+        {
+          "coords": [
+            49.4106,
+            8.7153
+          ],
+          "title": "Heidelberg Castle"
+        },
+        {
+          "coords": [
+            50.1175,
+            8.6517
+          ],
+          "title": "Senckenberg Natural History Museum"
+        },
+        {
+          "coords": [
+            50.1125,
+            8.6721
+          ],
+          "title": "Main Tower"
+        },
+        {
+          "coords": [
+            50.1232,
+            8.6585
+          ],
+          "title": "Palmengarten"
+        }
       ]
     }
   },
@@ -503,7 +905,7 @@
       },
       {
         "title": "Mechelen (City of Bells & Games)",
-        "description": "A quick 25-minute train north. Mechelen is incredibly walkable and famous as the home of the Royal Carillon School—you can frequently hear the massive acoustic bells echoing from the cathedral as you explore. It also houses the *Speelgoedmuseum* (Toy Museum), a massive, hands-on space packed with wooden logic puzzles, historic games, and interactive challenges."
+        "description": "A quick 25-minute train north. Mechelen is incredibly walkable and famous as the home of the Royal Carillon School\u2014you can frequently hear the massive acoustic bells echoing from the cathedral as you explore. It also houses the *Speelgoedmuseum* (Toy Museum), a massive, hands-on space packed with wooden logic puzzles, historic games, and interactive challenges."
       },
       {
         "title": "Dinant (Cliffs & Acoustic History)",
@@ -519,7 +921,7 @@
       },
       {
         "title": "Antwerp (Middelheim & Printing Presses)",
-        "description": "Just 45 minutes by train. Head to the Plantin-Moretus Museum—the only museum in the world recognized as a UNESCO World Heritage site, featuring the world's oldest printing presses in a stunning 16th-century mansion that feels like a historic puzzle to navigate. Later, walk the Middelheim Open Air Sculpture Museum, a massive park where art is hidden among the walking trails."
+        "description": "Just 45 minutes by train. Head to the Plantin-Moretus Museum\u2014the only museum in the world recognized as a UNESCO World Heritage site, featuring the world's oldest printing presses in a stunning 16th-century mansion that feels like a historic puzzle to navigate. Later, walk the Middelheim Open Air Sculpture Museum, a massive park where art is hidden among the walking trails."
       },
       {
         "title": "Ghent (Gravensteen Castle)",
@@ -572,7 +974,7 @@
           {
             "title": "The Waffles",
             "image": "images/brussels_food.jpg",
-            "description": "There are two main types. The **Brussels Waffle** is rectangular, light, and crispy (usually eaten sitting down with toppings). The **Liège Waffle** is dense, chewy, and packed with pearl sugar that caramelizes on the iron (best eaten warm from a street vendor while walking)."
+            "description": "There are two main types. The **Brussels Waffle** is rectangular, light, and crispy (usually eaten sitting down with toppings). The **Li\u00e8ge Waffle** is dense, chewy, and packed with pearl sugar that caramelizes on the iron (best eaten warm from a street vendor while walking)."
           },
           {
             "title": "Frietkot Culture",
@@ -593,16 +995,46 @@
       "itinerary": {
         "title": "10-Day Itinerary",
         "items": [
-          { "day": "Day 1", "activity": "Departure: Afternoon flight out of PDX, connecting through a European hub." },
-          { "day": "Day 2", "activity": "Arrival & Les Marolles: Arrive at BRU. Take the 20-minute train directly into Brussels Central. Check in and stretch your legs by walking the historic streets of Les Marolles. Grab a warm Liège waffle from a street vendor to help combat the jet lag." },
-          { "day": "Day 3", "activity": "Instruments & Greenhouses: Spend the morning exploring the incredible acoustic and traditional exhibits at the Musical Instruments Museum (MIM). In the afternoon, take a short ride out to the Meise Botanic Garden to walk the expansive grounds and greenhouses." },
-          { "day": "Day 4", "activity": "Antwerp's Historic Puzzles: Take the 45-minute train north to Antwerp. Spend the morning exploring the labyrinthine rooms and ancient presses of the Plantin-Moretus Museum." },
-          { "day": "Day 5", "activity": "Antwerp's Outdoor Trails: Return to Antwerp or stay overnight. Spend the day walking the expansive, shaded trails of the Middelheim Open Air Sculpture Museum, grabbing thick-cut *frieten* from a local *frietkot* for lunch." },
-          { "day": "Day 6", "activity": "Medieval Ghent: Take the 35-minute train to Ghent. Spend the day exploring the winding stone corridors and towers of Gravensteen Castle. Walk the picturesque Graslei harbor and seek out a local bakery for fresh *Cramique*." },
-          { "day": "Day 7", "activity": "Brussels City Walking: Have a slow morning in Brussels. Walk through the stunning Sablon district, stopping into independent chocolatiers to assemble a box of fresh pralines. Enjoy a relaxed, sit-down lunch of traditional Flemish stew (*Carbonnade Flamande*)." },
-          { "day": "Day 8", "activity": "Flexible Exploration: Keep this day open. Revisit a favorite neighborhood, take a quick train to the university town of Leuven to walk the botanical gardens there, or explore the massive Parc du Cinquantenaire." },
-          { "day": "Day 9", "activity": "Final Explorations: Pick up any last-minute souvenirs or specialized local baking tools. Enjoy a celebratory final dinner out in the city." },
-          { "day": "Day 10", "activity": "Return Home: Take the short train back to Brussels Airport (BRU). Board your flight back to the US, clearing customs comfortably back in Portland." }
+          {
+            "day": "Day 1",
+            "activity": "Departure: Afternoon flight out of PDX, connecting through a European hub."
+          },
+          {
+            "day": "Day 2",
+            "activity": "Arrival & Les Marolles: Arrive at BRU. Take the 20-minute train directly into Brussels Central. Check in and stretch your legs by walking the historic streets of Les Marolles. Grab a warm Li\u00e8ge waffle from a street vendor to help combat the jet lag."
+          },
+          {
+            "day": "Day 3",
+            "activity": "Instruments & Greenhouses: Spend the morning exploring the incredible acoustic and traditional exhibits at the Musical Instruments Museum (MIM). In the afternoon, take a short ride out to the Meise Botanic Garden to walk the expansive grounds and greenhouses."
+          },
+          {
+            "day": "Day 4",
+            "activity": "Antwerp's Historic Puzzles: Take the 45-minute train north to Antwerp. Spend the morning exploring the labyrinthine rooms and ancient presses of the Plantin-Moretus Museum."
+          },
+          {
+            "day": "Day 5",
+            "activity": "Antwerp's Outdoor Trails: Return to Antwerp or stay overnight. Spend the day walking the expansive, shaded trails of the Middelheim Open Air Sculpture Museum, grabbing thick-cut *frieten* from a local *frietkot* for lunch."
+          },
+          {
+            "day": "Day 6",
+            "activity": "Medieval Ghent: Take the 35-minute train to Ghent. Spend the day exploring the winding stone corridors and towers of Gravensteen Castle. Walk the picturesque Graslei harbor and seek out a local bakery for fresh *Cramique*."
+          },
+          {
+            "day": "Day 7",
+            "activity": "Brussels City Walking: Have a slow morning in Brussels. Walk through the stunning Sablon district, stopping into independent chocolatiers to assemble a box of fresh pralines. Enjoy a relaxed, sit-down lunch of traditional Flemish stew (*Carbonnade Flamande*)."
+          },
+          {
+            "day": "Day 8",
+            "activity": "Flexible Exploration: Keep this day open. Revisit a favorite neighborhood, take a quick train to the university town of Leuven to walk the botanical gardens there, or explore the massive Parc du Cinquantenaire."
+          },
+          {
+            "day": "Day 9",
+            "activity": "Final Explorations: Pick up any last-minute souvenirs or specialized local baking tools. Enjoy a celebratory final dinner out in the city."
+          },
+          {
+            "day": "Day 10",
+            "activity": "Return Home: Take the short train back to Brussels Airport (BRU). Board your flight back to the US, clearing customs comfortably back in Portland."
+          }
         ]
       }
     },
@@ -611,50 +1043,160 @@
         {
           "title": "Natural History & The Land",
           "items": [
-            { "title": "Topography & The Ancient Forest", "description": "Brussels sits on the Brabantian plateau. The Sonian Forest (Zoniënwoud) is a massive, ancient beech forest bordering the city—a direct remnant of the primeval Silva Carbonaria from the end of the last Ice Age." },
-            { "title": "Paleontology", "description": "In 1878, deep inside a nearby coal mine, miners discovered a sinkhole packed with 30 perfectly articulated Iguanodon skeletons, proving some dinosaurs were bipedal and moved in herds." }
+            {
+              "title": "Topography & The Ancient Forest",
+              "description": "Brussels sits on the Brabantian plateau. The Sonian Forest (Zoni\u00ebnwoud) is a massive, ancient beech forest bordering the city\u2014a direct remnant of the primeval Silva Carbonaria from the end of the last Ice Age."
+            },
+            {
+              "title": "Paleontology",
+              "description": "In 1878, deep inside a nearby coal mine, miners discovered a sinkhole packed with 30 perfectly articulated Iguanodon skeletons, proving some dinosaurs were bipedal and moved in herds."
+            }
+          ]
+        },
+        {
+          "title": "Flora, Fauna & Bug Science",
+          "items": [
+            {
+              "title": "Royal Belgian Institute of Natural Sciences (Brussels)",
+              "description": "While famous for its dinosaur skeletons, this museum is an entomological powerhouse. It houses an estimated 15 to 17 million insect specimens with sprawling public galleries dedicated to global insect biodiversity and evolution."
+            },
+            {
+              "title": "Hexapoda - Insectarium Jean Leclercq (Day Trip to Waremme)",
+              "description": "About an hour by train, this is the region's only dedicated insect museum. It features millions of preserved specimens, massive live insect vivariums, an indoor butterfly greenhouse, and an outdoor ecological trail specifically engineered to attract wild insects."
+            },
+            {
+              "title": "Visitor Center Lieteberg (Day Trip near Genk)",
+              "description": "About an hour and a half away, this is a phenomenal, active day trip. It features a massive mesh dome housing only native European butterflies. It\u2019s designed as a hands-on hunt where Alice can search the 75 different host plants for hidden eggs, caterpillars, and chrysalises."
+            }
           ]
         },
         {
           "title": "The Human Timeline",
           "items": [
-            { "title": "Pre-Industrial", "description": "Founded around 979 AD. As the city industrialized, the Senne river became heavily polluted. In a massive feat of urban engineering, the city vaulted over and buried the entire river underground." },
-            { "title": "The Industrial Era", "description": "In August 1830, a performance of the romantic nationalist opera La Muette de Portici riled up the crowd so much that they poured out of the theater and sparked the Belgian Revolution in the streets." },
-            { "title": "Modern History", "description": "Brussels was the birthplace of Art Nouveau. Architects like Victor Horta used industrial iron and glass to create organic building designs. It hosted the 1958 World's Fair, constructing the Atomium." }
+            {
+              "title": "Pre-Industrial",
+              "description": "Founded around 979 AD. As the city industrialized, the Senne river became heavily polluted. In a massive feat of urban engineering, the city vaulted over and buried the entire river underground."
+            },
+            {
+              "title": "The Industrial Era",
+              "description": "In August 1830, a performance of the romantic nationalist opera La Muette de Portici riled up the crowd so much that they poured out of the theater and sparked the Belgian Revolution in the streets."
+            },
+            {
+              "title": "Modern History",
+              "description": "Brussels was the birthplace of Art Nouveau. Architects like Victor Horta used industrial iron and glass to create organic building designs. It hosted the 1958 World's Fair, constructing the Atomium."
+            }
           ]
         },
         {
           "title": "Notable Historical Figures",
           "items": [
-            { "title": "Victor Horta (1861–1947)", "description": "The father of Art Nouveau architecture." },
-            { "title": "René Magritte (1898–1967)", "description": "The master of Surrealist painting." },
-            { "title": "Georges Lemaître (1894–1966)", "description": "The mathematician/priest who first proposed the \"Big Bang theory.\"" },
-            { "title": "Audrey Hepburn (1929–1993)", "description": "Born in Brussels, the iconic actress was profoundly shaped by her early years in WWII-era Europe." },
-            { "title": "Hergé / Georges Remi (1907–1983)", "description": "Creator of The Adventures of Tintin and pioneer of the clear-line comic drawing style." }
+            {
+              "title": "Victor Horta (1861\u20131947)",
+              "description": "The father of Art Nouveau architecture."
+            },
+            {
+              "title": "Ren\u00e9 Magritte (1898\u20131967)",
+              "description": "The master of Surrealist painting."
+            },
+            {
+              "title": "Georges Lema\u00eetre (1894\u20131966)",
+              "description": "The mathematician/priest who first proposed the \"Big Bang theory.\""
+            },
+            {
+              "title": "Audrey Hepburn (1929\u20131993)",
+              "description": "Born in Brussels, the iconic actress was profoundly shaped by her early years in WWII-era Europe."
+            },
+            {
+              "title": "Herg\u00e9 / Georges Remi (1907\u20131983)",
+              "description": "Creator of The Adventures of Tintin and pioneer of the clear-line comic drawing style."
+            }
           ]
         },
         {
           "title": "The Obscure Explorer Sites",
           "items": [
-            { "title": "Hotel Metropole (The Arthur Rubinstein Room)", "description": "In 1927, this hotel room hosted the Fifth Solvay Conference. It is the literal site where 29 scientists (including Einstein and Curie) debated and solidified the foundational laws of quantum mechanics." },
-            { "title": "Jean d'Ardennestraat 50", "description": "A quiet residential street where Karl Marx lived in 1848, writing the pamphlet that would change global history right in this bourgeois neighborhood." }
+            {
+              "title": "Hotel Metropole (The Arthur Rubinstein Room)",
+              "description": "In 1927, this hotel room hosted the Fifth Solvay Conference. It is the literal site where 29 scientists (including Einstein and Curie) debated and solidified the foundational laws of quantum mechanics."
+            },
+            {
+              "title": "Jean d'Ardennestraat 50",
+              "description": "A quiet residential street where Karl Marx lived in 1848, writing the pamphlet that would change global history right in this bourgeois neighborhood."
+            }
           ]
         }
       ]
     },
     "map": {
-      "center": [50.8503, 4.3517],
+      "center": [
+        50.8503,
+        4.3517
+      ],
       "zoom": 9,
       "markers": [
-        { "coords": [50.8428, 4.3585], "title": "Brussels (MIM/Center)" },
-        { "coords": [50.9284, 4.3274], "title": "Meise Botanic Garden" },
-        { "coords": [50.8798, 4.7005], "title": "Leuven" },
-        { "coords": [51.0259, 4.4776], "title": "Mechelen" },
-        { "coords": [50.2600, 4.9120], "title": "Dinant" },
-        { "coords": [50.5906, 4.5297], "title": "Villers-la-Ville" },
-        { "coords": [50.9575, 5.4087], "title": "Bokrijk" },
-        { "coords": [51.2194, 4.4025], "title": "Antwerp" },
-        { "coords": [51.0543, 3.7174], "title": "Ghent" }
+        {
+          "coords": [
+            50.8428,
+            4.3585
+          ],
+          "title": "Brussels (MIM/Center)"
+        },
+        {
+          "coords": [
+            50.9284,
+            4.3274
+          ],
+          "title": "Meise Botanic Garden"
+        },
+        {
+          "coords": [
+            50.8798,
+            4.7005
+          ],
+          "title": "Leuven"
+        },
+        {
+          "coords": [
+            51.0259,
+            4.4776
+          ],
+          "title": "Mechelen"
+        },
+        {
+          "coords": [
+            50.26,
+            4.912
+          ],
+          "title": "Dinant"
+        },
+        {
+          "coords": [
+            50.5906,
+            4.5297
+          ],
+          "title": "Villers-la-Ville"
+        },
+        {
+          "coords": [
+            50.9575,
+            5.4087
+          ],
+          "title": "Bokrijk"
+        },
+        {
+          "coords": [
+            51.2194,
+            4.4025
+          ],
+          "title": "Antwerp"
+        },
+        {
+          "coords": [
+            51.0543,
+            3.7174
+          ],
+          "title": "Ghent"
+        }
       ]
     }
   }
