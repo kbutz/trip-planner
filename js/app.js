@@ -43,7 +43,7 @@ const App = {
 
     fetchData: async () => {
         try {
-            const response = await fetch('data/destinations.json');
+            const response = await fetch(`data/destinations.json?v=${new Date().getTime()}`);
             App.data = await response.json();
         } catch (error) {
             console.error('Error fetching data:', error);
