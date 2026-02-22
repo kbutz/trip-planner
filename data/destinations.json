@@ -1199,5 +1199,303 @@
         }
       ]
     }
+  },
+  {
+    "id": "edinburgh",
+    "name": "Edinburgh",
+    "country": "Scotland",
+    "connectionType": "1-stop",
+    "flightTime": "~11 to 12 hours total",
+    "route": "PDX -> EDI",
+    "bannerImage": "images/edinburgh_banner.jpg",
+    "description": "Edinburgh is built on the remains of ancient, extinct volcanoes. Castle Rock and Arthur's Seat were formed during the early Carboniferous Period when massive amounts of magma pushed through the Earth's crust.",
+    "dayTripIntro": "The Scottish rail system is excellent. You can easily reach engineering marvels, palace ruins, and coastal towns within an hour.",
+    "dayTrips": [
+      {
+        "title": "Falkirk (Engineering & Kelpies)",
+        "description": "A 30-minute train. Features the Falkirk Wheel, a rotating boat lift that is a masterpiece of modern kinetic engineering. Nearby are The Kelpies, massive 30-meter-high steel sculptures of mythical water horses that you can walk inside.",
+        "image": "images/edinburgh_daytrip_falkirk.jpg"
+      },
+      {
+        "title": "Linlithgow (Palace Ruins)",
+        "description": "A quick 20-minute train. Explore the massive, sprawling stone ruins of Linlithgow Palace (the birthplace of Mary Queen of Scots), beautifully situated next to a tranquil loch."
+      },
+      {
+        "title": "North Berwick (Coastal Trails & Seabirds)",
+        "description": "A 35-minute train drops you at the coast. It\u2019s perfect for exploring the Scottish Seabird Centre, walking the wide sandy beaches, and eating fresh seafood."
+      }
+    ],
+    "extendedDetails": {
+      "gettingAround": {
+        "text": "Incredibly compact and easily explored on foot. For slightly longer hops, Lothian Buses are excellent, and the Edinburgh Trams connect the airport directly to the city center."
+      },
+      "primaryDestination": {
+        "title": "Exploring the Primary Destination: Edinburgh",
+        "items": [
+          {
+            "title": "City Walking & Culture",
+            "description": "The Royal Mile stretches from the Castle down to the Palace of Holyroodhouse. The city is famous for its nightly acoustic folk music sessions; pubs like Sandy Bell's or The Royal Oak are legendary for informal, traditional string music."
+          },
+          {
+            "title": "Acoustic Music History",
+            "description": "St Cecilia's Hall is the oldest purpose-built concert hall in Scotland (1763). It houses the University of Edinburgh's world-class collection of over 500 historic musical instruments. Many are still playable, and they provide an interactive app so you can hear exactly how these ancient guitars, lutes, and harpsichords sounded."
+          },
+          {
+            "title": "The Obscure Explorer Sites (AI History)",
+            "description": "The Appleton Tower / Hope Park Square. While they are just university buildings today, this area is where Donald Michie built the MENACE machine in 1961. He effectively birthed early reinforcement machine learning out of a pile of 304 matchboxes and colored glass beads because he couldn't get access to a mainframe computer!"
+          }
+        ]
+      },
+      "attractions": {
+        "title": "The Important Tourist Attractions",
+        "items": [
+          {
+            "title": "Edinburgh Castle",
+            "image": "images/edinburgh_attraction_castle.jpg",
+            "description": "A historic fortress which dominates the skyline of Edinburgh, Scotland, from its position on the Castle Rock."
+          },
+          {
+            "title": "Arthur's Seat",
+            "description": "An ancient volcano which is the main peak of the group of hills in Edinburgh, Scotland, which form most of Holyrood Park."
+          },
+          {
+            "title": "National Museum of Scotland",
+            "description": "Along with its massive \"Animal World\" galleries, this museum holds a staggering collection of international insects and frequently runs special entomology events, handling sessions, and collection tours for kids."
+          }
+        ]
+      },
+      "food": {
+        "title": "Local Food & Dining",
+        "items": [
+          {
+            "title": "Bakeries & Sweets",
+            "image": "images/edinburgh_food_scones.jpg",
+            "description": "Scottish baking is legendary. Look for fresh Scones served with clotted cream and jam, crumbly Shortbread, and Tablet (a dense, sugary fudge that melts in your mouth)."
+          },
+          {
+            "title": "Traditional Dishes",
+            "image": "images/edinburgh_food_haggis.jpg",
+            "description": "Haggis, Neeps, and Tatties (haggis served with mashed turnips and potatoes). For a comforting meal after a windy, coastal walk, try Cullen Skink (a thick, creamy smoked haddock and potato soup)."
+          }
+        ]
+      },
+      "itinerary": {
+        "title": "10-Day Itinerary",
+        "items": [
+          {
+            "day": "Day 1",
+            "activity": "Afternoon flight out of PDX (1-stop connection)."
+          },
+          {
+            "day": "Day 2",
+            "activity": "Arrive at EDI. Take the tram into the city center. Walk the Royal Mile and grab fresh scones to fight jet lag."
+          },
+          {
+            "day": "Day 3",
+            "activity": "Morning at the National Museum of Scotland (animal galleries and bug science). Afternoon walking through the Princes Street Gardens in the shadow of Castle Rock."
+          },
+          {
+            "day": "Day 4",
+            "activity": "Explore St Cecilia's Hall to see the historic acoustic instruments. Enjoy a hearty dinner of Haggis, Neeps, and Tatties."
+          },
+          {
+            "day": "Day 5",
+            "activity": "Train to Falkirk. Marvel at the kinetic engineering of the Falkirk Wheel and walk inside the towering steel Kelpies."
+          },
+          {
+            "day": "Day 6",
+            "activity": "Spend the morning on a bug hunt at the Royal Botanic Garden Edinburgh. In the evening, visit a cozy pub like Sandy Bell's to listen to live, traditional Scottish folk music."
+          },
+          {
+            "day": "Day 7",
+            "activity": "Train to Linlithgow. Spend the day exploring the massive stone ruins and winding staircases of the palace."
+          },
+          {
+            "day": "Day 8",
+            "activity": "Hike up the volcanic crags of Arthur's Seat for panoramic views of the city. Warm up afterward with a bowl of Cullen Skink."
+          },
+          {
+            "day": "Day 9",
+            "activity": "Train to North Berwick for a relaxed coastal day. Pick up shortbread and tablet for souvenirs. Final celebratory dinner."
+          },
+          {
+            "day": "Day 10",
+            "activity": "Tram back to Edinburgh Airport (EDI). Flight home, clearing customs in Portland."
+          }
+        ]
+      }
+    },
+    "historicalContext": {
+      "sections": [
+        {
+          "title": "Natural History & The Land",
+          "items": [
+            {
+              "title": "Geology & Topography",
+              "description": "Edinburgh is built on the remains of ancient, extinct volcanoes. Castle Rock and Arthur's Seat were formed during the early Carboniferous Period (around 340 million years ago) when massive amounts of magma pushed through the Earth's crust."
+            },
+            {
+              "title": "Hydrology & Glaciation",
+              "description": "During the last Ice Age, massive eastward-flowing glaciers scoured the landscape. The hard volcanic basalt of Castle Rock resisted the ice, protecting the softer sedimentary rock behind it. This formed the classic \"crag and tail\" ridge that the Royal Mile sits on today."
+            },
+            {
+              "title": "Paleontology",
+              "description": "The region was a swampy, semi-arid lagoon millions of years ago. The area is famous for the discovery of \"Lizzie\" (Westlothiana lizziae), one of the oldest known reptile-like fossils ever found, showcasing the critical evolutionary leap from water to land."
+            }
+          ]
+        },
+        {
+          "title": "Flora, Fauna & Bug Science",
+          "items": [
+            {
+              "title": "Special Flora & Fauna",
+              "description": "Scotland's coastal waters are home to the Atlantic Puffin, while the highlands are roamed by the majestic Red Deer and the shaggy, iconic Highland Cattle (often called \"Heilan Coos\")."
+            },
+            {
+              "title": "The Highland Midge",
+              "description": "If you venture into the wetter Scottish Highlands, you will encounter the infamous Highland Midge (Culicoides impunctatus). While tiny, these biting insects swarm in massive, dense clouds during the summer, creating a unique (albeit annoying) ecological hurdle for hikers."
+            },
+            {
+              "title": "Royal Botanic Garden Edinburgh (Bug Science in the City)",
+              "description": "A sprawling 70-acre botanical garden heavily focused on native pollinator conservation. They have dedicated wildlife gardens specifically planted to attract bees, hoverflies, and butterflies, making it a perfect, safe spot for Alice to go on an urban bug hunt."
+            },
+            {
+              "title": "National Museum of Scotland (In the City)",
+              "description": "Along with its massive \"Animal World\" galleries, this museum holds a staggering collection of international insects and frequently runs special entomology events, handling sessions, and collection tours for kids."
+            }
+          ]
+        },
+        {
+          "title": "The Human Timeline",
+          "items": [
+            {
+              "title": "Pre-Industrial",
+              "description": "Castle Rock has been a fortified stronghold since the Iron Age. In the Middle Ages, the city was confined within defensive walls, forcing residents to build incredibly high, towering tenement buildings (the \"Old Town\") along the Royal Mile. This created a dark, cramped, and unsanitary maze of steep, narrow alleys called \"closes.\""
+            },
+            {
+              "title": "The Industrial Era",
+              "description": "During the Scottish Enlightenment in the 18th century, Edinburgh became a global center for philosophy, science, and medicine. To escape the overcrowded Old Town, the city engineered the elegant, mathematically grid-like \"New Town\" to the north."
+            },
+            {
+              "title": "Modern History",
+              "description": "Edinburgh evolved into the world's leading festival city, establishing the Edinburgh International Festival and the Fringe in 1947 to celebrate European cultural unity post-WWII. It also continued its scientific legacy; in 1996, scientists at the Roslin Institute just outside the city successfully cloned Dolly the Sheep, a massive milestone in modern biology."
+            }
+          ]
+        },
+        {
+          "title": "Notable Historical Figures",
+          "items": [
+            {
+              "title": "David Hume (1711\u20131776)",
+              "description": "A titan of the Scottish Enlightenment whose empiricist philosophy profoundly influenced Western thought."
+            },
+            {
+              "title": "Mary Somerville (1780\u20131872)",
+              "description": "A brilliant science writer and polymath. The word \"scientist\" was literally coined for the first time in history to describe her when reviewing her work connecting astronomy, physics, and geography."
+            },
+            {
+              "title": "James Clerk Maxwell (1831\u20131879)",
+              "description": "Born in Edinburgh, he formulated the classical theory of electromagnetic radiation, laying the physical foundation for modern electrical engineering, radio, and television."
+            },
+            {
+              "title": "Arthur Conan Doyle (1859\u20131930)",
+              "description": "The creator of Sherlock Holmes. He studied medicine at the University of Edinburgh, basing his famous detective's deductive reasoning directly on his brilliant medical professors."
+            },
+            {
+              "title": "Donald Michie (1923\u20132007)",
+              "description": "A WWII codebreaker who established the AI research unit at the University of Edinburgh. In 1961, he invented \"MENACE,\" a mechanical computer made entirely out of matchboxes that learned to play tic-tac-toe."
+            }
+          ]
+        },
+        {
+          "title": "The Obscure Explorer Sites",
+          "items": [
+            {
+              "title": "The Appleton Tower / Hope Park Square",
+              "description": "While they are just university buildings today, this area is where Donald Michie built the MENACE machine in 1961. He effectively birthed early reinforcement machine learning out of a pile of 304 matchboxes and colored glass beads because he couldn't get access to a mainframe computer!"
+            }
+          ]
+        }
+      ]
+    },
+    "map": {
+      "center": [
+        55.9533,
+        -3.1883
+      ],
+      "zoom": 11,
+      "markers": [
+        {
+          "coords": [
+            55.94861,
+            -3.20083
+          ],
+          "title": "Edinburgh Castle"
+        },
+        {
+          "coords": [
+            55.94417,
+            -3.16194
+          ],
+          "title": "Arthur's Seat"
+        },
+        {
+          "coords": [
+            55.94694,
+            -3.19
+          ],
+          "title": "National Museum of Scotland"
+        },
+        {
+          "coords": [
+            55.965,
+            -3.21
+          ],
+          "title": "Royal Botanic Garden"
+        },
+        {
+          "coords": [
+            56.000333,
+            -3.841664
+          ],
+          "title": "Falkirk Wheel"
+        },
+        {
+          "coords": [
+            56.018,
+            -3.755
+          ],
+          "title": "The Kelpies"
+        },
+        {
+          "coords": [
+            55.9785,
+            -3.60111
+          ],
+          "title": "Linlithgow Palace"
+        },
+        {
+          "coords": [
+            56.061382,
+            -2.717442
+          ],
+          "title": "North Berwick"
+        },
+        {
+          "coords": [
+            55.94903,
+            -3.18649
+          ],
+          "title": "St Cecilia's Hall"
+        },
+        {
+          "coords": [
+            55.94444,
+            -3.18722
+          ],
+          "title": "Appleton Tower"
+        }
+      ]
+    }
   }
 ]
